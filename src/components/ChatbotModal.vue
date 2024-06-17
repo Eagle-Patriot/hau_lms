@@ -25,7 +25,7 @@
 import axios from "axios";
 import ChatbotIcon from "../icons/ChatbotIcon.vue";
 
-const API_KEY = "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";
+const API_KEY = process.env.OPEN_AI_KEY;
 const DEFAULT_RESPONSE = "Sorry, I don't understand that. Please focus on topics related to AI and Innovation";
 
 async function getChatGPTResponse(prompt) {
