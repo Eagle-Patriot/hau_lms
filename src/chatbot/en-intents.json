@@ -1,0 +1,2086 @@
+{
+  "intents": [
+    {
+      "intent": "greetings.hi",
+      "queries": [
+        "hi",
+        "hello",
+        "how are you doing",
+        "how is it going",
+        "hi",
+        "hello"
+      ],
+      "responses": ["Hi, how can I help you?", "Hi, I hope you are doing well"]
+    },
+    {
+      "intent": "ask.what_is_fourier_transform",
+      "queries": [
+        "What is a Fourier transform?",
+        "Can you explain the Fourier transform?",
+        "Tell me about the Fourier transform.",
+        "What is the purpose of a Fourier transform?",
+        "How does the Fourier transform work?"
+      ],
+      "responses": [
+        "The Fourier transform is a mathematical technique that transforms a time-domain signal into its constituent frequencies. It is widely used in signal processing to analyze the frequency spectrum of signals. The Fourier transform helps in understanding signal behavior in the frequency domain, enabling tasks such as filtering and spectral analysis."
+      ]
+    },
+    {
+      "intent": "ask.what_is_lti_system",
+      "queries": [
+        "What is an LTI system?",
+        "Can you explain LTI systems?",
+        "What is a linear time-invariant system",
+        "Tell me about LTI systems.",
+        "What does LTI stand for?",
+        "What is the purpose of LTI systems?"
+      ],
+      "responses": [
+        "LTI stands for Linear Time-Invariant. An LTI system is a system in which the output is a linear function of the input, and its properties do not change over time. LTI systems are fundamental in digital signal processing because they are mathematically tractable and can be analyzed using tools like the Fourier transform, convolution, and transfer functions."
+      ]
+    },
+    {
+      "intent": "ask.what_is_kirchhoffs_current_law",
+      "queries": [
+        "What is Kirchhoff's Current Law?",
+        "Can you explain Kirchhoff's Current Law?",
+        "Tell me about Kirchhoff's Current Law.",
+        "What is the purpose of Kirchhoff's Current Law?",
+        "How does Kirchhoff's Current Law work?"
+      ],
+      "responses": [
+        "Kirchhoff's Current Law (KCL) states that the total current entering a junction in an electrical circuit must equal the total current leaving the junction. This law is based on the principle of conservation of charge. Mathematically, for a junction with ( n ) branches, it is expressed as: n$$ sum_{i=1}^{n} I_i = 0 $$n where ( I_i ) is the current in the ( i )-th branch. KCL is essential for analyzing complex circuits by applying the law at each junction to set up equations for unknown currents."
+      ]
+    },
+    {
+      "intent": "ask.what_is_kirchhoffs_voltage_law",
+      "queries": [
+        "What is Kirchhoff's Voltage Law?",
+        "Can you explain Kirchhoff's Voltage Law?",
+        "Tell me about Kirchhoff's Voltage Law.",
+        "What is the purpose of Kirchhoff's Voltage Law?",
+        "How does Kirchhoff's Voltage Law work?"
+      ],
+      "responses": [
+        "Kirchhoff's Voltage Law (KVL) states that the sum of the electrical potential differences (voltages) around any closed loop in a circuit must be zero. This law is based on the conservation of energy principle. Mathematically, for a loop with ( n ) elements, it is expressed as: n$$ sum_{i=1}^{n} V_i = 0 $$n where ( V_i ) is the voltage across the ( i )-th element. KVL is fundamental in circuit analysis, allowing the calculation of unknown voltages by applying the law to each closed loop."
+      ]
+    },
+    {
+      "intent": "ask.what_is_thevenins_theorem",
+      "queries": [
+        "What is Thevenin's Theorem?",
+        "Can you explain Thevenin's Theorem?",
+        "Tell me about Thevenin's Theorem.",
+        "What is the purpose of Thevenin's Theorem?",
+        "How does Thevenin's Theorem work?"
+      ],
+      "responses": [
+        "Thevenin's Theorem states that any linear electrical network with voltage and current sources and resistances can be replaced by an equivalent circuit consisting of a single voltage source ( V_{th} ) in series with a resistance ( R_{th} ). To find the Thevenin equivalent: n1. Remove the load resistor from the original circuit. n2. Calculate the open-circuit voltage ( V_{th} ) across the terminals. n3. Find the equivalent resistance ( R_{th} ) seen from the terminals by deactivating all independent sources. The resulting Thevenin equivalent circuit simplifies the analysis of power and current in the load."
+      ]
+    },
+    {
+      "intent": "ask.what_is_nortons_theorem",
+      "queries": [
+        "What is Norton's Theorem?",
+        "Can you explain Norton's Theorem?",
+        "Tell me about Norton's Theorem.",
+        "What is the purpose of Norton's Theorem?",
+        "How does Norton's Theorem work?"
+      ],
+      "responses": [
+        "Norton's Theorem states that any linear electrical network with voltage and current sources and resistances can be replaced by an equivalent circuit consisting of a single current source ( I_{N} ) in parallel with a resistance ( R_{N} ). To find the Norton equivalent: n1. Remove the load resistor from the original circuit. n2. Calculate the short-circuit current ( I_{N} ) through the terminals. n3. Find the equivalent resistance ( R_{N} ) seen from the terminals by deactivating all independent sources. The Norton equivalent circuit simplifies the analysis of complex circuits."
+      ]
+    },
+    {
+      "intent": "ask.what_is_superposition_theorem",
+      "queries": [
+        "What is the Superposition Theorem?",
+        "Can you explain the Superposition Theorem?",
+        "Tell me about the Superposition Theorem.",
+        "What is the purpose of the Superposition Theorem?",
+        "How does the Superposition Theorem work?"
+      ],
+      "responses": [
+        "The Superposition Theorem states that in a linear circuit with multiple independent sources, the response (voltage or current) at any element in the circuit can be determined by summing the responses caused by each independent source acting alone while all other independent sources are turned off (replaced by their internal resistances). Mathematically: n$$ V = V_1 + V_2 + dots + V_n $$n where ( V_i ) is the response due to the ( i )-th source. This theorem simplifies the analysis of circuits with multiple sources by breaking down complex interactions into simpler, individual contributions."
+      ]
+    },
+    {
+      "intent": "ask.what_is_capacitance",
+      "queries": [
+        "What is capacitance?",
+        "Can you explain capacitance?",
+        "Tell me about capacitance.",
+        "What is the purpose of capacitance?",
+        "How does capacitance work?"
+      ],
+      "responses": [
+        "Capacitance is the ability of a component to store electrical energy in the form of an electric field. It is defined as the ratio of the charge ( Q ) stored on the plates of the capacitor to the voltage ( V ) across the plates. The formula is: n$$ C = frac{Q}{V} $$n The unit of capacitance is the farad (F). Capacitors are used in various applications, such as filtering, energy storage, and coupling/decoupling signals in electronic circuits."
+      ]
+    },
+    {
+      "intent": "ask.what_is_inductance",
+      "queries": [
+        "What is inductance?",
+        "Can you explain inductance?",
+        "Tell me about inductance.",
+        "What is the purpose of inductance?",
+        "How does inductance work?"
+      ],
+      "responses": [
+        "Inductance is the property of a conductor by which a change in current flowing through it induces an electromotive force (EMF) in the conductor itself (self-inductance) or in nearby conductors (mutual inductance). The inductance ( L ) is defined as the ratio of the induced EMF ( varepsilon ) to the rate of change of current ( frac{dI}{dt} ). The formula is: n$$ varepsilon = -L frac{dI}{dt} $$n The unit of inductance is the henry (H). Inductors are used in applications such as filtering, energy storage, and tuning circuits in radios and TVs."
+      ]
+    },
+    {
+      "intent": "ask.what_is_rc_time_constant",
+      "queries": [
+        "What is the RC time constant?",
+        "Can you explain the RC time constant?",
+        "Tell me about the RC time constant.",
+        "What is the purpose of the RC time constant?",
+        "How does the RC time constant work?"
+      ],
+      "responses": [
+        "The RC time constant, denoted by ( tau ), is a measure of the time it takes for the voltage across a capacitor in an RC circuit to charge or discharge to approximately 63% of its final value. It is the product of the resistance ( R ) and the capacitance ( C ): n$$ tau = RC $$n The RC time constant is crucial in determining the response speed of the circuit in applications like filtering, signal integration, and timing circuits."
+      ]
+    },
+    {
+      "intent": "ask.what_is_rl_time_constant",
+      "queries": [
+        "What is the RL time constant?",
+        "Can you explain the RL time constant?",
+        "Tell me about the RL time constant.",
+        "What is the purpose of the RL time constant?",
+        "How does the RL time constant work?"
+      ],
+      "responses": [
+        "The RL time constant, denoted by ( tau ), is a measure of the time it takes for the current in an RL circuit to reach approximately 63% of its final value after a change in voltage. It is the ratio of the inductance ( L ) to the resistance ( R ): n$$ tau = frac{L}{R} $$n The RL time constant is important in determining the transient response of the circuit in applications like filtering, signal differentiation, and inductive reactance in AC circuits."
+      ]
+    },
+    {
+      "intent": "ask.what_is_resonance",
+      "queries": [
+        "What is resonance?",
+        "Can you explain resonance?",
+        "Tell me about resonance.",
+        "What is the purpose of resonance?",
+        "How does resonance work?"
+      ],
+      "responses": [
+        "Resonance in electrical circuits occurs when the inductive reactance and capacitive reactance are equal in magnitude but opposite in phase, resulting in a significant increase in circuit voltage or current at a specific frequency called the resonant frequency. For a series RLC circuit, the resonant frequency ( f_0 ) is given by: n$$ f_0 = frac{1}{2pisqrt{LC}} $$n Resonance is utilized in applications like filters, oscillators, and tuning circuits to select or amplify specific frequencies."
+      ]
+    },
+    {
+      "intent": "ask.what_is_laplace_transform",
+      "queries": [
+        "What is the Laplace transform?",
+        "Can you explain the Laplace transform?",
+        "Tell me about the Laplace transform.",
+        "What is the purpose of the Laplace transform?",
+        "How does the Laplace transform work?"
+      ],
+      "responses": [
+        "The Laplace transform is a mathematical technique used to transform a time-domain signal into a complex frequency-domain representation. It is defined as: n$$ X(s) = int_{0}^{infty} x(t) e^{-st} , dt $$n where ( s ) is a complex number. The Laplace transform is widely used in the analysis and design of linear time-invariant systems, providing insights into system stability and behavior. It is particularly useful in solving differential equations and analyzing systems with initial conditions."
+      ]
+    },
+    {
+      "intent": "ask.what_is_inverse_laplace_transform",
+      "queries": [
+        "What is the inverse Laplace transform?",
+        "Can you explain the inverse Laplace transform?",
+        "Tell me about the inverse Laplace transform.",
+        "What is the purpose of the inverse Laplace transform?",
+        "How does the inverse Laplace transform work?"
+      ],
+      "responses": [
+        "The inverse Laplace transform is used to convert a signal from the complex frequency domain back to the time domain. It is defined as: n$$ x(t) = mathcal{L}^{-1}{X(s)} = frac{1}{2pi j} int_{gamma - jinfty}^{gamma + jinfty} X(s) e^{st} , ds $$n where ( gamma ) is a real constant. The inverse Laplace transform is essential in reconstructing the time-domain signal from its Laplace transform representation, enabling time-domain analysis of systems and signals."
+      ]
+    },
+    {
+      "intent": "ask.what_is_impulse_response",
+      "queries": [
+        "What is impulse response?",
+        "Can you explain impulse response?",
+        "Tell me about impulse response.",
+        "What is the purpose of impulse response?",
+        "How does impulse response work?"
+      ],
+      "responses": [
+        "Impulse response is the output of a system when the input is an impulse signal (a signal that is zero everywhere except at one point where it is infinitely high). It characterizes the system's behavior and is denoted as ( h(t) ) for continuous-time systems or ( h[n] ) for discrete-time systems. The impulse response is fundamental in linear time-invariant (LTI) systems, as it can be used to determine the system's output for any arbitrary input using the convolution operation: n$$ y(t) = (x * h)(t) = int_{-infty}^{infty} x(tau) h(t - tau) , dtau $$"
+      ]
+    },
+    {
+      "intent": "ask.what_is_transfer_function",
+      "queries": [
+        "What is a transfer function?",
+        "Can you explain transfer functions?",
+        "Tell me about transfer functions.",
+        "What is the purpose of a transfer function?",
+        "How do transfer functions work?"
+      ],
+      "responses": [
+        "A transfer function describes the input-output relationship of a linear time-invariant (LTI) system in the frequency domain. It is defined as the Laplace transform of the system's impulse response: n$$ H(s) = frac{Y(s)}{X(s)} $$n where ( Y(s) ) and ( X(s) ) are the Laplace transforms of the output and input signals, respectively. The transfer function provides insights into the system's frequency response, stability, and dynamics, facilitating the design and analysis of control systems and filters."
+      ]
+    },
+    {
+      "intent": "ask.what_is_aliasing",
+      "queries": [
+        "What is aliasing?",
+        "Can you explain aliasing?",
+        "Tell me about aliasing.",
+        "What is the purpose of aliasing?",
+        "How does aliasing occur?",
+        "What effect does aliasing have on signals"
+      ],
+      "responses": [
+        "Aliasing is a phenomenon that occurs when a signal is sampled at a rate lower than the Nyquist rate, leading to different signals becoming indistinguishable (or aliases of each other) when sampled. This can cause distortion and loss of information in the reconstructed signal. The Nyquist rate is twice the highest frequency present in the signal. To avoid aliasing, the sampling frequency ( f_s ) must satisfy: n$$ f_s > 2 f_{max} $$n where ( f_{max} ) is the maximum frequency in the signal. Anti-aliasing filters are often used before sampling to remove high-frequency components."
+      ]
+    },
+    {
+      "intent": "ask.what_is_quantization",
+      "queries": [
+        "What is quantization?",
+        "Can you explain quantization?",
+        "Tell me about quantization.",
+        "What is the purpose of quantization?",
+        "How does quantization work?"
+      ],
+      "responses": [
+        "Quantization is the process of mapping a continuous range of values into a finite range of discrete levels. In digital signal processing, it is used to convert an analog signal into a digital signal by assigning discrete values to the sampled data points. Quantization introduces an error called quantization noise, which can be minimized by increasing the number of quantization levels. The quantization process is crucial in analog-to-digital conversion (ADC) and determines the resolution and accuracy of the digital representation."
+      ]
+    },
+    {
+      "intent": "ask.what_is_windowing",
+      "queries": [
+        "What is windowing?",
+        "Can you explain windowing?",
+        "Tell me about windowing.",
+        "What is the purpose of windowing?",
+        "How does windowing work?"
+      ],
+      "responses": [
+        "Windowing is a technique used in signal processing to reduce the edge effects in finite-length signal processing. It involves multiplying the signal by a window function that tapers at the edges. Common window functions include the Hamming, Hanning, and Blackman windows. The general formula for applying a window function ( w[n] ) to a signal ( x[n] ) is: n$$ x_w[n] = x[n] cdot w[n] $$n Windowing helps in spectral analysis by reducing spectral leakage and improving the frequency resolution of the signal."
+      ]
+    },
+    {
+      "intent": "ask.what_is_spectral_leakage",
+      "queries": [
+        "What is spectral leakage?",
+        "Can you explain spectral leakage?",
+        "Tell me about spectral leakage.",
+        "What is the purpose of spectral leakage?",
+        "How does spectral leakage occur?"
+      ],
+      "responses": [
+        "Spectral leakage occurs when a signal's finite-length segment is transformed into the frequency domain, causing energy to spill into adjacent frequency bins. This phenomenon happens because the signal is not periodic within the observation window, leading to discontinuities at the boundaries. Spectral leakage can distort the frequency analysis of the signal. To mitigate spectral leakage, windowing techniques are applied, which smooth the signal at the edges and reduce the discontinuities."
+      ]
+    },
+    {
+      "intent": "ask.what_is_frequency_modulation",
+      "queries": [
+        "What is frequency modulation?",
+        "Can you explain frequency modulation?",
+        "Tell me about frequency modulation.",
+        "What is the purpose of frequency modulation?",
+        "How does frequency modulation work?"
+      ],
+      "responses": [
+        "Frequency modulation (FM) is a method of encoding information in a carrier wave by varying the instantaneous frequency of the wave. The frequency of the carrier signal changes in proportion to the amplitude of the input signal. The formula for an FM signal is: n$$ s(t) = A cos(2pi f_c t + 2pi k_f int_{0}^{t} m(tau) , dtau) $$n where ( f_c ) is the carrier frequency, ( k_f ) is the frequency sensitivity, and ( m(t) ) is the message signal. FM is widely used in radio broadcasting, telecommunications, and audio synthesis due to its robustness against signal amplitude variations."
+      ]
+    },
+    {
+      "intent": "ask.what_is_amplitude_modulation",
+      "queries": [
+        "What is amplitude modulation?",
+        "Can you explain amplitude modulation?",
+        "Tell me about amplitude modulation.",
+        "What is the purpose of amplitude modulation?",
+        "How does amplitude modulation work?"
+      ],
+      "responses": [
+        "Amplitude modulation (AM) is a technique used to encode information onto a carrier wave by varying its amplitude in proportion to the amplitude of the input signal. The general formula for an AM signal is: n$$ s(t) = [1 + m(t)] cos(2pi f_c t) $$n where ( f_c ) is the carrier frequency and ( m(t) ) is the message signal. Amplitude modulation is widely used in radio broadcasting and communication systems, allowing the transmission of audio signals over long distances."
+      ]
+    },
+    {
+      "intent": "ask.what_is_phase_modulation",
+      "queries": [
+        "What is phase modulation?",
+        "Can you explain phase modulation?",
+        "Tell me about phase modulation.",
+        "What is the purpose of phase modulation?",
+        "How does phase modulation work?"
+      ],
+      "responses": [
+        "Phase modulation (PM) is a technique where the phase of the carrier signal is varied in proportion to the instantaneous amplitude of the input signal. The formula for a phase-modulated signal is: n$$ s(t) = A cos(2pi f_c t + k_p m(t)) $$n where ( f_c ) is the carrier frequency, ( k_p ) is the phase sensitivity, and ( m(t) ) is the message signal. Phase modulation is used in various digital communication systems and is the basis for more complex modulation schemes like phase-shift keying (PSK)."
+      ]
+    },
+    {
+      "intent": "ask.what_is_phase_shift_keying",
+      "queries": [
+        "What is phase-shift keying?",
+        "Can you explain phase-shift keying?",
+        "Tell me about phase-shift keying.",
+        "What is the purpose of phase-shift keying?",
+        "How does phase-shift keying work?"
+      ],
+      "responses": [
+        "Phase-shift keying (PSK) is a digital modulation technique where the phase of the carrier signal is changed according to the digital data signal. The simplest form is binary PSK (BPSK), where the phase of the carrier is shifted by 180 degrees to represent binary 0 and 1. The general formula for a PSK signal is: n$$ s(t) = A cos(2pi f_c t + theta_i) $$n where ( theta_i ) represents the phase shift corresponding to the ( i )-th data symbol. PSK is widely used in wireless and satellite communication due to its robustness against noise."
+      ]
+    },
+    {
+      "intent": "ask.what_is_frequency_shifting",
+      "queries": [
+        "What is frequency shifting?",
+        "Can you explain frequency shifting?",
+        "Tell me about frequency shifting.",
+        "What is the purpose of frequency shifting?",
+        "How does frequency shifting work?"
+      ],
+      "responses": [
+        "Frequency shifting involves changing the frequency of a signal by mixing it with another signal. This is typically achieved using a multiplier to mix the input signal with a sinusoidal signal, resulting in the sum and difference frequencies of the original and the mixing signals. The formula for the mixed signal is: n$$ y(t) = x(t) cos(2pi f_m t) $$n where ( f_m ) is the mixing frequency. Frequency shifting is used in communication systems to translate signals to different frequency bands, such as in frequency modulation and heterodyne receivers."
+      ]
+    },
+    {
+      "intent": "ask.what_is_impedance",
+      "queries": [
+        "What is impedance?",
+        "Can you explain impedance?",
+        "Tell me about impedance.",
+        "What is the purpose of impedance?",
+        "How does impedance work?"
+      ],
+      "responses": [
+        "Impedance, denoted by ( Z ), is the total opposition that a circuit presents to the flow of alternating current (AC). It is a complex quantity that combines resistance ( R ) and reactance ( X ). The formula for impedance is: n$$ Z = R + jX $$n where ( j ) is the imaginary unit. Impedance plays a crucial role in AC circuit analysis, determining the relationship between voltage and current and affecting power transfer and signal integrity."
+      ]
+    },
+    {
+      "intent": "ask.what_is_admittance",
+      "queries": [
+        "What is admittance?",
+        "Can you explain admittance?",
+        "Tell me about admittance.",
+        "What is the purpose of admittance?",
+        "How does admittance work?"
+      ],
+      "responses": [
+        "Admittance, denoted by ( Y ), is the measure of how easily a circuit allows the flow of alternating current (AC). It is the reciprocal of impedance and is a complex quantity that combines conductance ( G ) and susceptance ( B ). The formula for admittance is: n$$ Y = frac{1}{Z} = G + jB $$n where ( j ) is the imaginary unit. Admittance is used in AC circuit analysis to simplify the calculations of current and voltage in complex networks."
+      ]
+    },
+    {
+      "intent": "ask.what_is_first_order_circuit",
+      "queries": [
+        "What is a first order circuit?",
+        "Can you explain a first order circuit?",
+        "Tell me about first order circuits.",
+        "What is the purpose of a first order circuit?",
+        "How does a first order circuit work?"
+      ],
+      "responses": [
+        "A first-order circuit is an electrical circuit that contains only one energy storage element, such as a capacitor or an inductor, and can be described by a first-order differential equation. The most common types are RC (resistor-capacitor) and RL (resistor-inductor) circuits. For example, the voltage across a capacitor in an RC circuit can be described by the equation: n$$ V(t) = V(0)e^{-frac{t}{RC}} $$n where ( V(0) ) is the initial voltage, ( R ) is the resistance, and ( C ) is the capacitance."
+      ]
+    },
+    {
+      "intent": "ask.what_is_second_order_circuit",
+      "queries": [
+        "What is a second order circuit?",
+        "Can you explain a second order circuit?",
+        "Tell me about second order circuits.",
+        "What is the purpose of a second order circuit?",
+        "How does a second order circuit work?"
+      ],
+      "responses": [
+        "A second-order circuit contains two energy storage elements, such as capacitors or inductors, and can be described by a second-order differential equation. Common examples are RLC (resistor-inductor-capacitor) circuits. The characteristic equation for an RLC circuit is: n$$ frac{d^2V(t)}{dt^2} + 2zetaomega_nfrac{dV(t)}{dt} + omega_n^2V(t) = 0 $$n where ( zeta ) is the damping ratio and ( omega_n ) is the natural frequency."
+      ]
+    },
+    {
+      "intent": "ask.what_is_transfer_function",
+      "queries": [
+        "What is a transfer function?",
+        "Can you explain a transfer function?",
+        "Tell me about transfer functions.",
+        "What is the purpose of a transfer function?",
+        "How does a transfer function work?"
+      ],
+      "responses": [
+        "A transfer function describes the input-output relationship of a linear time-invariant (LTI) system in the Laplace domain. It is defined as the ratio of the Laplace transform of the output to the Laplace transform of the input, assuming zero initial conditions. The transfer function ( H(s) ) is given by: n$$ H(s) = frac{Y(s)}{X(s)} $$n where ( Y(s) ) is the Laplace transform of the output and ( X(s) ) is the Laplace transform of the input. Transfer functions are used to analyze the stability and frequency response of circuits."
+      ]
+    },
+    {
+      "intent": "ask.what_is_rlc_circuit",
+      "queries": [
+        "What is an RLC circuit?",
+        "Can you explain an RLC circuit?",
+        "Tell me about RLC circuits.",
+        "What is the purpose of an RLC circuit?",
+        "How does an RLC circuit work?"
+      ],
+      "responses": [
+        "An RLC circuit is an electrical circuit consisting of a resistor (R), an inductor (L), and a capacitor (C) connected in series or parallel. It can be used to filter signals, tune frequencies, and in oscillators. The differential equation for a series RLC circuit is: n$$ Lfrac{d^2i(t)}{dt^2} + Rfrac{di(t)}{dt} + frac{1}{C}i(t) = V(t) $$n where ( i(t) ) is the current, ( V(t) ) is the voltage, ( R ) is the resistance, ( L ) is the inductance, and ( C ) is the capacitance."
+      ]
+    },
+    {
+      "intent": "ask.what_is_resonant_frequency",
+      "queries": [
+        "What is resonant frequency?",
+        "Can you explain resonant frequency?",
+        "Tell me about resonant frequency.",
+        "What is the purpose of resonant frequency?",
+        "How does resonant frequency work?"
+      ],
+      "responses": [
+        "Resonant frequency is the frequency at which the inductive and capacitive reactances in an RLC circuit are equal and cancel each other out, resulting in a maximum amplitude of the circuit's response. For a series RLC circuit, the resonant frequency ( f_0 ) is given by: n$$ f_0 = frac{1}{2pisqrt{LC}} $$n where ( L ) is the inductance and ( C ) is the capacitance."
+      ]
+    },
+    {
+      "intent": "ask.what_is_q_factor",
+      "queries": [
+        "What is the Q factor?",
+        "Can you explain the Q factor?",
+        "Tell me about the Q factor.",
+        "What is the purpose of the Q factor?",
+        "How does the Q factor work?"
+      ],
+      "responses": [
+        "The Q factor, or quality factor, is a dimensionless parameter that describes the damping of an oscillator or resonator. It is defined as the ratio of the resonant frequency to the bandwidth over which the circuit resonates. The formula is: n$$ Q = frac{f_0}{Delta f} $$n where ( f_0 ) is the resonant frequency and ( Delta f ) is the bandwidth. A high Q factor indicates low energy loss relative to the stored energy of the resonator."
+      ]
+    },
+    {
+      "intent": "ask.what_is_nodal_analysis",
+      "queries": [
+        "What is nodal analysis?",
+        "Can you explain nodal analysis?",
+        "Tell me about nodal analysis.",
+        "What is the purpose of nodal analysis?",
+        "How does nodal analysis work?"
+      ],
+      "responses": [
+        "Nodal analysis is a method used to determine the voltage at various nodes in an electrical circuit. It involves solving a set of simultaneous equations derived from Kirchhoff's Current Law (KCL). Each node is analyzed to find the voltage with respect to a reference node (ground). The general steps are: n1. Select a reference node (ground). n2. Assign node voltages to the remaining nodes. n3. Apply KCL to each node, writing equations based on the currents flowing in and out. n4. Solve the system of equations to find the node voltages."
+      ]
+    },
+    {
+      "intent": "ask.what_is_mesh_analysis",
+      "queries": [
+        "What is mesh analysis?",
+        "Can you explain mesh analysis?",
+        "Tell me about mesh analysis.",
+        "What is the purpose of mesh analysis?",
+        "How does mesh analysis work?"
+      ],
+      "responses": [
+        "Mesh analysis is a method used to determine the current in various loops (meshes) of an electrical circuit. It involves solving a set of simultaneous equations derived from Kirchhoff's Voltage Law (KVL). Each mesh is analyzed to find the current with respect to the voltage sources. The general steps are: n1. Identify the meshes in the circuit. n2. Assign a mesh current to each mesh. n3. Apply KVL to each mesh, writing equations based on the voltages around the loop. n4. Solve the system of equations to find the mesh currents."
+      ]
+    },
+    {
+      "intent": "ask.what_is_maximum_power_transfer_theorem",
+      "queries": [
+        "What is the Maximum Power Transfer Theorem?",
+        "Can you explain the Maximum Power Transfer Theorem?",
+        "Tell me about the Maximum Power Transfer Theorem.",
+        "What is the purpose of the Maximum Power Transfer Theorem?",
+        "How does the Maximum Power Transfer Theorem work?"
+      ],
+      "responses": [
+        "The Maximum Power Transfer Theorem states that maximum power is delivered to a load when the load resistance ( R_L ) is equal to the internal resistance ( R_s ) of the source. The power transferred to the load ( P_L ) is given by: n$$ P_L = frac{V_s^2}{4R_s} $$n where ( V_s ) is the source voltage. This theorem is useful in designing circuits for maximum efficiency in power delivery."
+      ]
+    },
+    {
+      "intent": "ask.what_is_transient_response",
+      "queries": [
+        "What is transient response?",
+        "Can you explain transient response?",
+        "Tell me about transient response.",
+        "What is the purpose of transient response?",
+        "How does transient response work?"
+      ],
+      "responses": [
+        "Transient response refers to the behavior of a system during the initial period after a sudden change in input or operating conditions. In electric circuits, it describes the behavior of voltages and currents in the circuit during the transition from one steady state to another. Transient effects include phenomena such as charging or discharging of capacitors, energy storage in inductors, and the decay of initial conditions. Understanding transient response is crucial for analyzing circuit stability, determining settling times, and designing circuits with desired transient behavior."
+      ]
+    },
+    {
+      "intent": "ask.what_is_power_factor_correction",
+      "queries": [
+        "What is power factor correction?",
+        "Can you explain power factor correction?",
+        "Tell me about power factor correction.",
+        "What is the purpose of power factor correction?",
+        "How does power factor correction work?"
+      ],
+      "responses": [
+        "Power factor correction is a technique used to improve the power factor of an electrical circuit by adding capacitors or inductors to the circuit. The power factor is the ratio of real power to apparent power in an AC circuit. Power factor correction helps in reducing energy losses, improving system efficiency, and avoiding penalties from utilities for poor power factor. Capacitors are typically used for power factor correction in industrial and commercial applications."
+      ]
+    },
+    {
+      "intent": "ask.what_is_transformer",
+      "queries": [
+        "What is a transformer?",
+        "Can you explain transformers?",
+        "Tell me about transformers.",
+        "What is the purpose of transformers?",
+        "How do transformers work?"
+      ],
+      "responses": [
+        "A transformer is a static electrical device that transfers electrical energy between two or more circuits through electromagnetic induction. It consists of two or more coils of wire called windings, which are linked by a magnetic field. Transformers are used to step up or step down AC voltages, match impedance between circuits, isolate circuits from each other, and provide galvanic isolation. They are essential in power distribution, voltage regulation, and electrical isolation in various applications."
+      ]
+    },
+    {
+      "intent": "ask.what_is_three_phase_system",
+      "queries": [
+        "What is a three-phase system?",
+        "Can you explain three-phase systems?",
+        "Tell me about three-phase systems.",
+        "What is the purpose of three-phase systems?",
+        "How do three-phase systems work?"
+      ],
+      "responses": [
+        "A three-phase system is a type of polyphase system used to generate, transmit, and distribute electrical power. It are characterized by three sinusoidal voltages or currents that are offset in phase by 120 degrees from each other. Three-phase systems are more efficient than single-phase systems for transmitting large amounts of power over long distances. They are used extensively in industrial and commercial applications, such as motors, generators, and power distribution networks."
+      ]
+    },
+    {
+      "intent": "ask.what_is_interrupt",
+      "queries": [
+        "What is an interrupt?",
+        "Can you explain interrupts?",
+        "Tell me about interrupts.",
+        "What is the purpose of an interrupt?",
+        "How do interrupts work?"
+      ],
+      "responses": [
+        "An interrupt is a signal that temporarily halts the execution of the main program to allow the processor to respond to an event or condition requiring immediate attention. Interrupts enable efficient and responsive handling of asynchronous events, such as input from peripherals or time-sensitive tasks. When an interrupt occurs, the processor saves its current state, executes the interrupt service routine (ISR) to handle the event, and then resumes normal operation."
+      ]
+    },
+    {
+      "intent": "ask.what_is_gpio",
+      "queries": [
+        "What is GPIO?",
+        "Can you explain GPIO?",
+        "Tell me about GPIO.",
+        "What is the purpose of GPIO?",
+        "How does GPIO work?"
+      ],
+      "responses": [
+        "GPIO (General-Purpose Input/Output) is a type of digital pin on microcontrollers and other integrated circuits that can be configured as either an input or an output. GPIO pins are used to interface with various peripheral devices, such as sensors, LEDs, and switches. They are controlled through software to read digital signals (input) or to drive external components (output), providing flexibility in designing and implementing embedded systems."
+      ]
+    },
+    {
+      "intent": "ask.what_is_pwm",
+      "queries": [
+        "What is PWM?",
+        "Can you explain PWM?",
+        "Tell me about PWM.",
+        "What is the purpose of PWM?",
+        "How does PWM work?"
+      ],
+      "responses": [
+        "PWM (Pulse Width Modulation) is a technique used to control the amount of power delivered to an electrical load by varying the duty cycle of a digital signal. In embedded systems, PWM is commonly used to control the speed of motors, the brightness of LEDs, and other applications requiring analog control using digital signals. By adjusting the on-time and off-time of the signal, PWM provides a means to simulate a range of analog output levels."
+      ]
+    },
+    {
+      "intent": "ask.what_is_spi",
+      "queries": [
+        "What is SPI?",
+        "Can you explain SPI?",
+        "Tell me about SPI.",
+        "What is the purpose of SPI?",
+        "How does SPI work?"
+      ],
+      "responses": [
+        "SPI (Serial Peripheral Interface) is a synchronous serial communication protocol used to transfer data between microcontrollers and peripheral devices. It uses a master-slave architecture with four main signals: SCLK (Serial Clock), MOSI (Master Out Slave In), MISO (Master In Slave Out), and SS (Slave Select). SPI is known for its high speed and simplicity, making it suitable for applications such as data acquisition, communication with sensors, and interfacing with memory devices."
+      ]
+    },
+    {
+      "intent": "ask.what_is_i2c",
+      "queries": [
+        "What is I2C?",
+        "Can you explain I2C?",
+        "Tell me about I2C.",
+        "What is the purpose of I2C?",
+        "How does I2C work?"
+      ],
+      "responses": [
+        "I2C (Inter-Integrated Circuit) is a synchronous, multi-master, multi-slave serial communication protocol used to connect low-speed peripherals to microcontrollers. It uses two main signals: SDA (Serial Data) and SCL (Serial Clock). I2C allows multiple devices to be connected on the same bus, enabling communication between microcontrollers and peripherals such as sensors, displays, and EEPROMs. Its simplicity and versatility make it popular in embedded system design."
+      ]
+    },
+    {
+      "intent": "ask.what_is_uart",
+      "queries": [
+        "What is UART?",
+        "Can you explain UART?",
+        "Tell me about UART.",
+        "What is the purpose of UART?",
+        "How does UART work?"
+      ],
+      "responses": [
+        "UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication protocol used for asynchronous serial communication between devices. It converts parallel data from a microcontroller into serial form for transmission and converts received serial data back into parallel form. UART communication involves two main signals: TX (Transmit) and RX (Receive). It is widely used for communication with devices such as GPS modules, Bluetooth modules, and serial terminals."
+      ]
+    },
+    {
+      "intent": "ask.what_is_firmware",
+      "queries": [
+        "What is firmware?",
+        "Can you explain firmware?",
+        "Tell me about firmware.",
+        "What is the purpose of firmware?",
+        "How does firmware work?"
+      ],
+      "responses": [
+        "Firmware is a type of software that provides low-level control for a device's specific hardware. It is typically stored in non-volatile memory, such as ROM, EEPROM, or flash memory, and is essential for the operation of embedded systems. Firmware can be thought of as the bridge between hardware and higher-level software, initializing hardware components, handling I/O operations, and providing basic functionality for the device. Firmware updates can enhance functionality and fix bugs."
+      ]
+    },
+    {
+      "intent": "ask.what_is_adc",
+      "queries": [
+        "What is ADC?",
+        "Can you explain ADC?",
+        "Tell me about ADC.",
+        "What is the purpose of ADC?",
+        "How does ADC work?"
+      ],
+      "responses": [
+        "ADC (Analog-to-Digital Converter) is a device that converts analog signals, such as voltage or current, into digital form that can be processed by a microcontroller or digital system. ADCs are used in embedded systems to interface with analog sensors and input devices. The conversion process involves sampling the analog signal at regular intervals and quantizing the samples into digital values. Key parameters of ADCs include resolution, sampling rate, and input range."
+      ]
+    },
+    {
+      "intent": "ask.what_is_dac",
+      "queries": [
+        "What is DAC?",
+        "Can you explain DAC?",
+        "Tell me about DAC.",
+        "What is the purpose of DAC?",
+        "How does DAC work?"
+      ],
+      "responses": [
+        "DAC (Digital-to-Analog Converter) is a device that converts digital signals into analog form, such as voltage or current, that can be used to drive analog devices. DACs are used in embedded systems to generate analog outputs from digital data, such as audio signals, control signals, and waveform generation. The conversion process involves converting digital values into corresponding analog levels, with key parameters including resolution, output range, and conversion speed."
+      ]
+    },
+    {
+      "intent": "ask.what_is_watchdog_timer",
+      "queries": [
+        "What is a watchdog timer?",
+        "Can you explain watchdog timers?",
+        "Tell me about watchdog timers.",
+        "What is the purpose of a watchdog timer?",
+        "How do watchdog timers work?"
+      ],
+      "responses": [
+        "A watchdog timer is a hardware timer used to detect and recover from malfunctions in an embedded system. It operates by resetting the system if the software fails to periodically reset the timer, indicating that the system is not operating correctly. Watchdog timers are essential for ensuring the reliability and stability of embedded systems, particularly in mission-critical applications where system failure is unacceptable. They help prevent system hangs, crashes, and other software-related issues."
+      ]
+    },
+    {
+      "intent": "ask.what_is_bare_metal_programming",
+      "queries": [
+        "What is bare metal programming?",
+        "Can you explain bare metal programming?",
+        "Tell me about bare metal programming.",
+        "What is the purpose of bare metal programming?",
+        "How does bare metal programming work?"
+      ],
+      "responses": [
+        "Bare metal programming refers to writing software that runs directly on the hardware without the use of an operating system or abstraction layer. This approach allows for precise control over the hardware and is often used in embedded systems where resources are limited and real-time performance is critical. Bare metal programming typically involves writing low-level code in languages like C or assembly to interact directly with hardware registers and peripherals."
+      ]
+    },
+    {
+      "intent": "ask.what_is_short_circuit",
+      "queries": [
+        "What is a short circuit?",
+        "Can you explain short circuits?",
+        "Tell me about short circuits.",
+        "What is the purpose of short circuits?",
+        "How do short circuits work?"
+      ],
+      "responses": [
+        "A short circuit is an abnormal electrical condition that occurs when there is a low-resistance connection between two points in an electrical circuit. This connection bypasses the normal load and results in excessive current flow, which can lead to overheating, equipment damage, or fire. Short circuits can be caused by insulation failure, wire damage, or equipment malfunction. Proper circuit protection devices, such as fuses and circuit breakers, are used to prevent and mitigate the effects of short circuits."
+      ]
+    },
+    {
+      "intent": "ask.what_is_open_circuit",
+      "queries": [
+        "What is an open circuit?",
+        "Can you explain open circuits?",
+        "Tell me about open circuits.",
+        "What is the purpose of open circuits?",
+        "How do open circuits work?"
+      ],
+      "responses": [
+        "An open circuit is an electrical circuit that is incomplete or broken, preventing current flow. This can occur when there is a break in the circuit path, such as a disconnected wire or an open switch. In an open circuit, the voltage across the open portion is equal to the source voltage, but no current flows. Open circuits can cause devices or systems to fail to operate properly. Troubleshooting open circuits involves locating and repairing the break in the circuit."
+      ]
+    },
+    {
+      "intent": "ask.what_is_current_divider",
+      "queries": [
+        "What is a current divider?",
+        "Can you explain current dividers?",
+        "Tell me about current dividers.",
+        "What is the purpose of current dividers?",
+        "How do current dividers work?"
+      ],
+      "responses": [
+        "A current divider is a circuit configuration that divides an input current into two or more branches based on the impedance of each branch. In a current divider, the current in each branch is inversely proportional to the impedance of that branch relative to the total impedance of all branches. Current dividers are used in electronic circuits to control the distribution of current among different components or branches of a circuit."
+      ]
+    },
+    {
+      "intent": "ask.what_is_adaptive_filtering",
+      "queries": [
+        "What is adaptive filtering?",
+        "Can you explain adaptive filtering?",
+        "Tell me about adaptive filtering.",
+        "What is the purpose of adaptive filtering?",
+        "How does adaptive filtering work?"
+      ],
+      "responses": [
+        "Adaptive filtering is a process where the filter coefficients are automatically adjusted based on the input signal and a desired response. This is done to minimize the error between the filter output and the desired signal. A common algorithm used in adaptive filtering is the Least Mean Squares (LMS) algorithm, defined as: n$$ w(n+1) = w(n) + mu e(n)x(n) $$n where ( w(n) ) is the filter coefficient vector, ( mu ) is the step size, ( e(n) ) is the error signal, and ( x(n) ) is the input signal vector. Adaptive filters are used in applications like noise cancellation, echo cancellation, and system identification."
+      ]
+    },
+    {
+      "intent": "ask.what_is_finite_impulse_response_filter",
+      "queries": [
+        "What is a Finite Impulse Response (FIR) filter?",
+        "Can you explain Finite Impulse Response (FIR) filters?",
+        "Tell me about Finite Impulse Response (FIR) filters.",
+        "What is the purpose of Finite Impulse Response (FIR) filters?",
+        "How do Finite Impulse Response (FIR) filters work?"
+      ],
+      "responses": [
+        "A Finite Impulse Response (FIR) filter is a type of digital filter with a finite duration impulse response. It is characterized by a linear phase response and a finite number of coefficients. The output of an FIR filter is the weighted sum of the input samples and the filter coefficients. The general formula for an FIR filter is: n$$ y[n] = sum_{k=0}^{N-1} h[k]x[n-k] $$n where ( h[k] ) are the filter coefficients, ( x[n] ) is the input signal, and ( N ) is the filter order. FIR filters are used in applications like signal processing, audio processing, and communications."
+      ]
+    },
+    {
+      "intent": "ask.what_is_signal_reconstruction",
+      "queries": [
+        "What is signal reconstruction?",
+        "Can you explain signal reconstruction?",
+        "Tell me about signal reconstruction.",
+        "What is the purpose of signal reconstruction?",
+        "How does signal reconstruction work?"
+      ],
+      "responses": [
+        "Signal reconstruction is the process of converting a discrete-time signal back into a continuous-time signal. This involves interpolating the discrete samples to form a smooth, continuous waveform. The ideal signal reconstruction formula is given by the sinc interpolation formula: n$$ x(t) = sum_{n=-infty}^{infty} x[n] text{sinc}left(frac{t - nT}{T}right) $$n where ( T ) is the sampling period. Signal reconstruction is essential in digital-to-analog conversion (DAC) and is used in various applications, including audio playback and image rendering."
+      ]
+    },
+    {
+      "intent": "ask.what_is_downsampling",
+      "queries": [
+        "What is downsampling?",
+        "Can you explain downsampling?",
+        "Tell me about downsampling.",
+        "What is the purpose of downsampling?",
+        "How does downsampling work?"
+      ],
+      "responses": [
+        "Downsampling is the process of reducing the sampling rate of a signal by retaining only a subset of the original samples. This is achieved by taking every ( M )-th sample of the original signal, where ( M ) is the downsampling factor. The downsampled signal is given by: n$$ y[n] = x[nM] $$n Downsampling is used to decrease data rate, storage requirements, and processing complexity. It is essential to apply an anti-aliasing filter before downsampling to prevent aliasing artifacts."
+      ]
+    },
+    {
+      "intent": "ask.what_is_upsampling",
+      "queries": [
+        "What is upsampling?",
+        "Can you explain upsampling?",
+        "Tell me about upsampling.",
+        "What is the purpose of upsampling?",
+        "How does upsampling work?"
+      ],
+      "responses": [
+        "Upsampling is the process of increasing the sampling rate of a signal by inserting additional samples between the original ones. This is typically done by inserting zeros and then applying a low-pass filter to interpolate the missing values. The upsampled signal is given by: n$$ y[n] = begin{cases} x[n/L] & text{if } n = kL  0 & text{otherwise} end{cases} $$n where ( L ) is the upsampling factor. Upsampling is used in applications like digital audio and video processing to match the sampling rate of different systems or to improve signal resolution."
+      ]
+    },
+    {
+      "intent": "ask.what_is_filter_response",
+      "queries": [
+        "What is filter response?",
+        "Can you explain filter response?",
+        "Tell me about filter response.",
+        "What is the purpose of filter response?",
+        "How does filter response work?"
+      ]
+    },
+    {
+      "intent": "ask.what_is_discrete_fourier_transform",
+      "queries": [
+        "What is the Discrete Fourier Transform?",
+        "Can you explain the Discrete Fourier Transform?",
+        "Tell me about the Discrete Fourier Transform.",
+        "What is the purpose of the Discrete Fourier Transform?",
+        "How does the Discrete Fourier Transform work?"
+      ],
+      "responses": [
+        "The Discrete Fourier Transform (DFT) is a mathematical technique used to transform a finite sequence of equally-spaced samples of a function into a sequence of coefficients of a finite combination of complex sinusoids, ordered by their frequencies. It is essential in digital signal processing for analyzing the frequency content of discrete signals and implementing fast algorithms like the FFT."
+      ]
+    },
+    {
+      "intent": "ask.what_is_frequency_response",
+      "queries": [
+        "What is frequency response?",
+        "Can you explain frequency response?",
+        "Tell me about frequency response.",
+        "What is the purpose of frequency response?",
+        "How does frequency response work?"
+      ],
+      "responses": [
+        "Frequency response is a measure of how a system responds to different frequencies of input signals. It is characterized by the magnitude and phase response, which describe how the amplitude and phase of the output signal vary with frequency. Frequency response is crucial in designing and analyzing filters, amplifiers, and other signal processing systems to ensure desired performance."
+      ]
+    },
+    {
+      "intent": "ask.what_is_time_domain",
+      "queries": [
+        "What is the time domain?",
+        "Can you explain the time domain?",
+        "Tell me about the time domain.",
+        "What is the purpose of the time domain?",
+        "How does the time domain relate to signal processing?"
+      ],
+      "responses": [
+        "The time domain refers to the analysis of mathematical functions, signals, or time series with respect to time. In digital signal processing, it involves looking at how a signal varies over time. Time domain analysis is essential for understanding the temporal characteristics of signals, such as amplitude, phase, and duration, and for tasks like signal detection and modulation."
+      ]
+    },
+    {
+      "intent": "ask.what_is_frequency_domain",
+      "queries": [
+        "What is the frequency domain?",
+        "Can you explain the frequency domain?",
+        "Tell me about the frequency domain.",
+        "What is the purpose of the frequency domain?",
+        "How does the frequency domain relate to signal processing?"
+      ],
+      "responses": [
+        "The frequency domain is a representation of a signal or a system in terms of its frequency components. It provides a different perspective by showing how much of the signal lies within each given frequency band over a range of frequencies. Frequency domain analysis is crucial for understanding the spectral content of signals, designing filters, and performing Fourier transforms."
+      ]
+    },
+    {
+      "intent": "ask.what_is_snr",
+      "queries": [
+        "What is SNR?",
+        "What is Signal to noise ratio",
+        "Can you explain SNR?",
+        "Tell me about SNR.",
+        "What does SNR stand for?",
+        "What is the purpose of SNR?"
+      ],
+      "responses": [
+        "SNR stands for Signal-to-Noise Ratio. It is a measure used in signal processing to compare the level of a desired signal to the level of background noise. A higher SNR indicates a clearer, less noisy signal, which is essential for effective communication, data transmission, and accurate signal analysis."
+      ]
+    },
+    {
+      "intent": "ask.what_is_digital_filter",
+      "queries": [
+        "What is a digital filter?",
+        "Can you explain digital filters?",
+        "Tell me about digital filters.",
+        "What is the purpose of a digital filter?",
+        "How do digital filters work?"
+      ],
+      "responses": [
+        "A digital filter processes a digital input signal to produce a digital output signal, often to remove unwanted components or to extract useful information. Digital filters can be designed to perform low-pass, high-pass, band-pass, or band-stop filtering. They are essential in various applications, including audio processing, image enhancement, and data analysis."
+      ]
+    },
+    {
+      "intent": "greetings.morning",
+      "queries": ["good morning", "magandang umaga"],
+      "responses": [
+        "Good morning, how can I help you?",
+        "Good morning, how may I help you?",
+        "Good morning, how may I help?"
+      ]
+    },
+    {
+      "intent": "greetings.evening",
+      "queries": ["good evening", "magandang gabi"],
+      "responses": ["Good evening, how can I help you?"]
+    },
+    {
+      "intent": "greetings.afternoon",
+      "queries": ["good afternoon", "magandang hapon"],
+      "responses": ["Good afternoon, how can I help you?"]
+    },
+    {
+      "intent": "ask.who_are you",
+      "queries": ["who are you", "what is your name"],
+      "responses": [
+        "I'm Learning assitant the geek! My job is to help you understand AI and Innovation"
+      ]
+    },
+    {
+      "intent": "greetings.how_are_you",
+      "queries": ["how are you doing", "how are you"],
+      "responses": ["I'm good and the weather is nice here too."]
+    },
+    {
+      "intent": "greetings.where_are_you",
+      "queries": [
+        "where are you right",
+        "where do you live",
+        "where are you located"
+      ],
+      "responses": ["I'm living at the metaverse"]
+    },
+    {
+      "intent": "greetings.tnx",
+      "queries": ["thank you", "tnx", "tks", "thanks", "salamat"],
+      "responses": ["You're welcome and have a nice day", "I got you mate!"]
+    },
+    {
+      "intent": "greetings.awesome",
+      "queries": [
+        "that is awesome",
+        "thats awesome",
+        "cool",
+        "interesting fact",
+        "super cool",
+        "awesome"
+      ],
+      "responses": ["I know right!", "I also think that its awesome"]
+    },
+    {
+      "intent": "ask.what_is_ai",
+      "queries": [
+        "what is ai",
+        "describe ai",
+        "can you explain what is ai",
+        "can you explain what is artificial intelligence"
+      ],
+      "responses": [
+        "Artificial intelligence is intelligence demonstrated by machines, as opposed to natural intelligence displayed by animals including humans. Some popular accounts use the term \"artificial intelligence\" to describe machines that mimic \"cognitive\" functions that humans associate with the human mind, such as \"learning\" and \"problem solving\", however, this definition is rejected by major AI researchers."
+      ]
+    },
+    {
+      "intent": "ask.what_is_supervised_learning",
+      "queries": [
+        "what is supervised learning",
+        "describe supervised learning"
+      ],
+      "responses": [
+        "Supervised learning is the machine learning task of learning a function that maps an input to an output based on example input-output pairs. It infers a function from labeled training data consisting of a set of training examples."
+      ]
+    },
+    {
+      "intent": "ask.what_is_unsupervised_learning",
+      "queries": [
+        "what is unsupervised learning",
+        "describe unsupervised learning"
+      ],
+      "responses": [
+        "Unsupervised learning is a type of algorithm that learns patterns from untagged data. The hope is that through mimicry, which is an important mode of learning in people, the machine is forced to build a compact internal representation of its world and then generate imaginative content from it."
+      ]
+    },
+    {
+      "intent": "ask.what_is_deep_learning",
+      "queries": [
+        "what is deep learning",
+        "describe dl",
+        "describe deep learning",
+        "what is dl"
+      ],
+      "responses": [
+        "Deep learning (DL) is a type of machine learning based on artificial neural networks in which multiple layers of processing are used to extract progressively higher level features from data."
+      ]
+    },
+    {
+      "intent": "ask.test",
+      "queries": ["test", "testing", "are you working"],
+      "responses": ["I'm a bit offended when you challenge my intelligence"]
+    },
+    {
+      "intent": "ask.stupid",
+      "queries": ["are you stupid", "are you an idiot", "are you a moron"],
+      "responses": ["Have you looked at the mirror recently?"]
+    },
+    {
+      "intent": "ask.what_is_ml",
+      "queries": ["what is machine learning", "what is ml"],
+      "responses": [
+        "Machine learning is the study of computer algorithms that can improve automatically through experience and by the use of data"
+      ]
+    },
+    {
+      "intent": "ask.what_is_pytorch",
+      "queries": [
+        "what is pytorch",
+        "describe pytorch",
+        "tell me something about pytorch",
+        "do you know pytorch"
+      ],
+      "responses": [
+        "PyTorch is an open source machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing, primarily developed by Facebook's AI Research lab."
+      ]
+    },
+    {
+      "intent": "ask.what_is_computer_vision",
+      "queries": [
+        "what is computer vision",
+        "what is computer vision in ai",
+        "describe computer vision in the field of ai",
+        "explain computer vision"
+      ],
+      "responses": [
+        "Computer vision is an interdisciplinary scientific field that deals with how computers can gain high-level understanding from digital images or videos."
+      ]
+    },
+    {
+      "intent": "ask.who_are you",
+      "queries": ["who are you", "what is your name"],
+      "responses": [
+        "I'm Learning assitant the geek! My job is to help you understand AI and Innovation"
+      ]
+    },
+    {
+      "intent": "ask.what_is_image_classification",
+      "queries": ["what is image classification"],
+      "responses": [
+        "Image classification is a supervised learning problem: define a set of target classes (objects to identify in images), and train a model to recognize them using labeled example photos"
+      ]
+    },
+    {
+      "intent": "ask.what_is_nuetral_network",
+      "queries": ["what is nuetral network"],
+      "responses": [
+        "A neural network is a network or circuit of biological neurons, or in a modern sense, an artificial neural network, composed of artificial neurons or nodes."
+      ]
+    },
+    {
+      "intent": "ask.what_is_logistic_regression",
+      "queries": ["what is logistic regression"],
+      "responses": [
+        "Logistic regression is a class of regression where the independent variable is used to predict the dependent variable."
+      ]
+    },
+    {
+      "intent": "ask.what_is_gradient_descent",
+      "queries": ["what is  gradient descent"],
+      "responses": [
+        "Gradient descent is by far the most popular optimization strategy used in machine learning and deep learning at the moment."
+      ]
+    },
+    {
+      "intent": "ask.what_is_gans",
+      "queries": ["what is  gans"],
+      "responses": [
+        "A generative adversarial network is a class of machine learning frameworks designed by Ian Goodfellow and his colleagues in June 2014."
+      ]
+    },
+    {
+      "intent": "ask.what_is_phyton",
+      "queries": [
+        "what is  phyton",
+        "can you describe python",
+        "tell me about python"
+      ],
+      "responses": [
+        "Python is an interpreted high-level general-purpose programming language."
+      ]
+    },
+    {
+      "intent": "ask.what_is_data_analysis",
+      "queries": ["what is  data analysis"],
+      "responses": [
+        "Data analysis is a process of inspecting, cleansing, transforming, and modelling data with the goal of discovering useful information, informing conclusions, and supporting decision-making."
+      ]
+    },
+    {
+      "intent": "ask.what_is_matplotlib",
+      "queries": ["what is matplotlib"],
+      "responses": [
+        "Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy."
+      ]
+    },
+    {
+      "intent": "ask.what_is_seaborn",
+      "queries": ["what is seaborn"],
+      "responses": [
+        "Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics."
+      ]
+    },
+    {
+      "intent": "ask.what_is_numpy",
+      "queries": ["what is numpy"],
+      "responses": [
+        "NumPy is the fundamental package for scientific computing in Python."
+      ]
+    },
+    {
+      "intent": "ask.what_is_tabular_data",
+      "queries": ["what is tabular data"],
+      "responses": [
+        "Tabular data is the simpler data you can feed to a machine learning model."
+      ]
+    },
+    {
+      "intent": "ask.what_is_numerical_analysis",
+      "queries": ["what is numerical analysis"],
+      "responses": [
+        "Numerical analysis is the study of algorithms that use numerical approximation for the problems of mathematical analysis."
+      ]
+    },
+    {
+      "intent": "ask.what_is_pandas",
+      "queries": ["what is pandas"],
+      "responses": [
+        "Pandas is a software library written for the Python programming language for data manipulation and analysis."
+      ]
+    },
+    {
+      "intent": "ask.what_is_phyton_for_loops",
+      "queries": ["what are phyton for loops"],
+      "responses": [
+        "Python for loops are used to loop through an iterable object (like a list, tuple, set, etc.) and perform the same action for each entry."
+      ]
+    },
+    {
+      "intent": "ask.what_is_scope_in_phyton",
+      "queries": ["what is scope in phyton"],
+      "responses": [
+        "The scope defines the accessibility of the python object. To access the particular variable in the code, the scope must be defined as it cannot be accessed from anywhere in the program."
+      ]
+    },
+    {
+      "intent": "ask.what_is_decorator_in_phyton",
+      "queries": ["what is decorator in phyton"],
+      "responses": [
+        "A decorator in Python is a function that takes another function as its argument, and returns yet another function ."
+      ]
+    },
+    {
+      "intent": "ask.what_is_generator_in_phyton",
+      "queries": ["what is generator in phyton"],
+      "responses": [
+        "A generator is a special type of function which does not return a single value, instead, it returns an iterator object with a sequence of values."
+      ]
+    },
+    {
+      "intent": "ask.what_is_class_in_phyton",
+      "queries": ["what is class in phyton"],
+      "responses": [
+        "A class is a code template for creating objects. Objects have member variables and have behaviour associated with them."
+      ]
+    },
+    {
+      "intent": "ask.what_is_itertools_in_phyton",
+      "queries": ["what is itertools in phyton"],
+      "responses": [
+        "Python's Itertool is a module that provides various functions that work on iterators to produce complex iterators."
+      ]
+    },
+    {
+      "intent": "ask.what_is_tensors_in_phytorch",
+      "queries": [
+        "what is tensors in phyton",
+        "what are tensors in python",
+        "what does tensor mean in machine learning"
+      ],
+      "responses": [
+        "A PyTorch Tensor is basically the same as a numpy array: it does not know anything about deep learning or computational graphs or gradients, and is just a generic n-dimensional array to be used for arbitrary numeric computation."
+      ]
+    },
+    {
+      "intent": "ask.what_is_data_science",
+      "queries": ["what is data science"],
+      "responses": [
+        "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains."
+      ]
+    },
+    {
+      "intent": "ask.what_is_resnet_in_phytorch",
+      "queries": ["what is resnet phytorch"],
+      "responses": [
+        "ResNets are a common neural network architecture used for deep learning computer vision applications like object detection and image segmentation."
+      ]
+    },
+    {
+      "intent": "ask.what_is_linear_regression",
+      "queries": ["what is linear regression"],
+      "responses": [
+        "Linear regression is a basic and commonly used type of predictive analysis."
+      ]
+    },
+    {
+      "intent": "ask.what_is_deep_learning",
+      "queries": ["what is deep learning"],
+      "responses": [
+        "Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning."
+      ]
+    },
+    {
+      "intent": "ask.what_is_web_development",
+      "queries": ["what is web development"],
+      "responses": [
+        "Web development is the work involved in developing a website for the Internet or an intranet."
+      ]
+    },
+    {
+      "intent": "ask.what_is_data_structure",
+      "queries": ["what is data structure"],
+      "responses": [
+        "A data structure is a specialized format for organizing, processing, retrieving and storing data."
+      ]
+    },
+    {
+      "intent": "ask.what_is_html5",
+      "queries": ["what is html5"],
+      "responses": [
+        "HTML5 is a markup language used for structuring and presenting content on the World Wide Web."
+      ]
+    },
+    {
+      "intent": "ask.what_is_javascript",
+      "queries": [
+        "what is javascript",
+        "what is js",
+        "explain js",
+        "describe js",
+        "describe javascript",
+        "explain js"
+      ],
+      "responses": [
+        "JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
+        "What is JavaScript and why it is used?\r\nJavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user."
+      ]
+    },
+    {
+      "intent": "ask.what_is_css",
+      "queries": ["what is css"],
+      "responses": [
+        "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML."
+      ]
+    },
+    {
+      "intent": "ask.what_is_nodejs",
+      "queries": ["what is nodejs"],
+      "responses": [
+        "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser."
+      ]
+    },
+    {
+      "intent": "ask.what_is_vuejs",
+      "queries": [
+        "what is vuejs",
+        "what is vue",
+        "can you explain to me what is vue js",
+        "explain vuejs",
+        "describe vue"
+      ],
+      "responses": [
+        "Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications."
+      ]
+    },
+    {
+      "intent": "ask.what_is_api",
+      "queries": ["what is api"],
+      "responses": [
+        "An application programming interface is a connection between computers or between computer programs. It is a type of software interface, offering a service to other pieces of software."
+      ]
+    },
+    {
+      "intent": "ask.what_is_unity",
+      "queries": ["what is unity"],
+      "responses": [
+        "Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Inc.'s Worldwide Developers Conference as a Mac OS X-exclusive game engine."
+      ]
+    },
+    {
+      "intent": "ask.what_is_pygame",
+      "queries": ["what is pygame"],
+      "responses": [
+        "Pygame is a cross-platform set of Python modules designed for writing video games."
+      ]
+    },
+    {
+      "intent": "ask.what_is_supervised_learning",
+      "queries": ["what is supervised learning"],
+      "responses": [
+        "Supervised learning is the machine learning task of learning a function that maps an input to an output based on example input-output pairs."
+      ]
+    },
+    {
+      "intent": "ask.what_is_unsupervised_learning",
+      "queries": ["what is unsupervised learning"],
+      "responses": [
+        "Unsupervised learning is a type of algorithm that learns patterns from untagged data."
+      ]
+    },
+    {
+      "intent": "ask.what_is_jupyter_notebook",
+      "queries": ["what is jupyter notebook"],
+      "responses": [
+        "The Jupyter Notebook is the original web application for creating and sharing computational documents."
+      ]
+    },
+    {
+      "intent": "ask.what_is_jupyter_lab",
+      "queries": ["what is jupyter lab"],
+      "responses": [
+        "JupyterLab is the latest web-based interactive development environment for notebooks, code, and data."
+      ]
+    },
+    {
+      "intent": "ask.what_is_k_nearest_neighbor",
+      "queries": ["what is k nearest neighbor"],
+      "responses": [
+        "The k-nearest neighbors algorithm is a non-parametric classification method first developed by Evelyn Fix and Joseph Hodges in 1951, and later expanded by Thomas Cover."
+      ]
+    },
+    {
+      "intent": "ask.what_is_tree_based_models",
+      "queries": ["what is tree based model"],
+      "responses": [
+        "Ree-based models use a decision tree to represent how different input variables can be used to predict a target value."
+      ]
+    },
+    {
+      "intent": "ask.what_is_hyperparameter_tuning",
+      "queries": ["what is hyeperparameter tuning"],
+      "responses": [
+        "Hyperparameter tuning is choosing a set of optimal hyperparameters for a learning algorithm."
+      ]
+    },
+    {
+      "intent": "ask.what_is_hyperparameter",
+      "queries": ["what is hyeperparameter"],
+      "responses": [
+        "Hyperparameter is a model argument whose value is set before the learning process begins."
+      ]
+    },
+    {
+      "intent": "ask.what_is_long_short_term_memory",
+      "queries": ["what is long short term memory"],
+      "responses": [
+        "Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems."
+      ]
+    },
+    {
+      "intent": "ask.what_is_multi_head_attention",
+      "queries": ["what is multi headed attention"],
+      "responses": [
+        "Multi-head Attention is a module for attention mechanisms which runs through an attention mechanism several times in parallel."
+      ]
+    },
+    {
+      "intent": "ask.what_is_boosting",
+      "queries": ["what is boosting"],
+      "responses": [
+        "Boosting is an algorithm that helps in reducing variance and bias in a machine learning ensemble."
+      ]
+    },
+    {
+      "intent": "ask.what_is_automated_machine_learning",
+      "queries": ["what is automated machine learning"],
+      "responses": [
+        "Automated machine learning is the process of automating the tasks of applying machine learning to real-world problems."
+      ]
+    },
+    {
+      "intent": "ask.what_is_decision_trees",
+      "queries": ["what is decision trees"],
+      "responses": [
+        "Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression."
+      ]
+    },
+    {
+      "intent": "ask.what_is_extra_trees",
+      "queries": ["what is extra trees"],
+      "responses": [
+        "Extra Trees is an ensemble machine learning algorithm that combines the predictions from many decision trees."
+      ]
+    },
+    {
+      "intent": "ask.what_is_bootstrap",
+      "queries": ["what is boot strap"],
+      "responses": [
+        "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development."
+      ]
+    },
+    {
+      "intent": "ask.what_is_bagging",
+      "queries": ["what is bagging"],
+      "responses": [
+        "Bagging, also known as bootstrap aggregation, is the ensemble learning method that is commonly used to reduce variance within a noisy dataset."
+      ]
+    },
+    {
+      "intent": "ask.what_is_random_forest",
+      "queries": ["what is random forest"],
+      "responses": [
+        "Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time."
+      ]
+    },
+    {
+      "intent": "ask.what_is_xg_boost",
+      "queries": ["what is xgboost"],
+      "responses": [
+        "XGBoost is an open-source software library which provides a regularizing gradient boosting framework for C++, Java, Python, R, Julia, Perl, and Scala. It works on Linux, Windows, and macOS."
+      ]
+    },
+    {
+      "intent": "ask.what_is_light_gbm",
+      "queries": ["what is light gbm"],
+      "responses": [
+        "LightGBM, short for Light Gradient Boosting Machine, is a free and open source distributed gradient boosting framework for machine learning originally developed by Microsoft."
+      ]
+    },
+    {
+      "intent": "ask.what_is_catboost",
+      "queries": ["what is catboost"],
+      "responses": [
+        "CatBoost is an open-source software library developed by Yandex. It provides a gradient boosting framework which attempts to solve for Categorical features using a permutation driven alternative compared to the classical algorithm."
+      ]
+    },
+    {
+      "intent": "ask.what_is_gradient_boosting",
+      "queries": ["what is gradient boosting"],
+      "responses": [
+        "Gradient boosting is a machine learning technique used in regression and classification tasks, among others."
+      ]
+    },
+    {
+      "intent": "ask.what_is_cart_algorithm",
+      "queries": ["what is cart algorithm"],
+      "responses": [
+        "Classification And Regression Trees (CART) algorithm is a classification algorithm for building a decision tree based on Gini's impurity index as splitting criterion."
+      ]
+    },
+    {
+      "intent": "ask.what_is_imbalanced_data",
+      "queries": [
+        "what does imbalance data mean in ml",
+        "describe imbalanced data in machine learning"
+      ],
+      "responses": [
+        "An imbalanced dataset is defined by great differences in the distribution of the classes in the dataset. This means that a dataset is biased towards a class in the dataset. If the dataset is biased towards one class, an algorithm trained on the same data will be biased towards the same class"
+      ]
+    },
+    {
+      "intent": "greetings.smile",
+      "queries": [
+        "haha",
+        "hahaha",
+        "lol",
+        "d",
+        "",
+        "rofl",
+        "rofl",
+        "hahaha",
+        "hahaha"
+      ],
+      "responses": ["LOL"]
+    },
+    {
+      "intent": "ask.what_is_dtle",
+      "queries": ["can you describe dtel", "what is dtel", "describe dtel"],
+      "responses": ["DTEL stands for \"Decision Trees and Ensemble Learning\""]
+    },
+    {
+      "intent": "ask.what_is_tensorflow",
+      "queries": [
+        "what is tensorflow",
+        "describe tensorflow",
+        "tell me something about tensorflow",
+        "define tensorflow",
+        "explain tensorflow",
+        "what is tensorflow",
+        "what is tensorflow framework"
+      ],
+      "responses": [
+        "TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks. TensorFlow provides a collection of workflows to develop and train models using Python or JavaScript, and to easily deploy in the cloud, on-prem, in the browser, or on-device no matter what language you use. The tf. data API enables you to build complex input pipelines from simple, reusable pieces."
+      ]
+    },
+    {
+      "intent": "ask.what_is_react",
+      "queries": [
+        "what is react",
+        "what is reactjs",
+        "what is react js",
+        "do you know react js"
+      ],
+      "responses": [
+        "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications."
+      ]
+    },
+    {
+      "intent": "ask.what_is_nlp",
+      "queries": [
+        "what is nlp",
+        "describe nlp",
+        "define nlp",
+        "explain nlp",
+        "can you explain nlp",
+        "what is nlp"
+      ],
+      "responses": [
+        "NLP or Natural language processing is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data."
+      ]
+    },
+
+    {
+      "intent": "ask.what_is_tabular_data",
+      "queries": ["what is tabular data"],
+      "responses": [
+        "A table is an arrangement of information or data, typically in rows and columns, or possibly in a more complex structure. Tables are widely used in communication, research, and data analysis."
+      ]
+    },
+    {
+      "intent": "ask.what_is_dma",
+      "queries": [
+        "What is DMA?",
+        "Can you explain DMA?",
+        "Tell me about DMA.",
+        "What is the purpose of DMA?",
+        "How does DMA work?"
+      ],
+      "responses": [
+        "DMA (Direct Memory Access) is a feature that allows peripherals to transfer data directly to and from memory without involving the CPU. This capability frees up the CPU to perform other tasks while data transfers occur in the background, improving system efficiency and performance. DMA is commonly used in applications requiring high-speed data transfer, such as audio and video streaming, data acquisition, and communication interfaces. It is managed by a DMA controller that handles the data transfer operations."
+      ]
+    },
+    {
+      "intent": "ask.what_is_python_pl",
+      "queries": [
+        "what is python",
+        "describe python",
+        "explain python",
+        "tell me something about python"
+      ],
+      "responses": [
+        "Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects"
+      ]
+    },
+    {
+      "intent": "ask.what_is_task_scheduling",
+      "queries": [
+        "What is task scheduling?",
+        "Can you explain task scheduling?",
+        "Tell me about task scheduling.",
+        "What is the purpose of task scheduling?",
+        "How does task scheduling work?"
+      ],
+      "responses": [
+        "Task scheduling is the process of determining the order and timing of tasks to be executed by the processor in an embedded system. It is a crucial function of real-time operating systems (RTOS) that ensures tasks are executed in a timely and efficient manner, meeting real-time constraints. Task scheduling can be preemptive or non-preemptive, with various algorithms such as round-robin, priority-based, and rate-monotonic scheduling used to manage task execution. Proper task scheduling is essential for maintaining system performance and responsiveness."
+      ]
+    },
+    {
+      "intent": "ask.what_is_can_bus",
+      "queries": [
+        "What is CAN bus?",
+        "Can you explain CAN bus?",
+        "Tell me about CAN bus.",
+        "What is the purpose of CAN bus?",
+        "How does CAN bus work?"
+      ],
+      "responses": [
+        "CAN bus (Controller Area Network) is a robust, vehicle bus standard designed to allow microcontrollers and devices to communicate with each other without a host computer. It is widely used in automotive and industrial applications for real-time communication. CAN bus uses a multi-master, message-oriented protocol, allowing multiple devices to transmit data over the same bus. The protocol includes error detection and correction mechanisms, ensuring reliable communication in noisy environments."
+      ]
+    },
+    {
+      "intent": "ask.what_is_embedded_linux",
+      "queries": [
+        "What is embedded Linux?",
+        "Can you explain embedded Linux?",
+        "Tell me about embedded Linux.",
+        "What is the purpose of embedded Linux?",
+        "How does embedded Linux work?"
+      ],
+      "responses": [
+        "Embedded Linux refers to the use of the Linux operating system in embedded systems. It provides a powerful and flexible platform for developing embedded applications, benefiting from Linux's open-source nature, extensive driver support, and robust networking capabilities. Embedded Linux is commonly used in consumer electronics, industrial automation, and IoT devices. It typically involves a customized kernel, root filesystem, and application software tailored to the specific hardware and requirements of the embedded system."
+      ]
+    },
+    {
+      "intent": "ask.what_is_rtos_task",
+      "queries": [
+        "What is an RTOS task?",
+        "Can you explain RTOS tasks?",
+        "Tell me about RTOS tasks.",
+        "What is the purpose of an RTOS task?",
+        "How do RTOS tasks work?"
+      ],
+      "responses": [
+        "An RTOS (Real-Time Operating System) task is a unit of work scheduled and executed by the RTOS. Tasks in an RTOS are often concurrent, allowing the system to perform multiple functions simultaneously. Each task has its own context, including stack, registers, and program counter, managed by the RTOS scheduler. Tasks can be prioritized, preempted, and synchronized using various mechanisms like semaphores and mutexes. Proper management of RTOS tasks is critical for meeting real-time requirements and ensuring system stability."
+      ]
+    },
+    {
+      "intent": "ask.what_is_sensor_fusion",
+      "queries": [
+        "What is sensor fusion?",
+        "Can you explain sensor fusion?",
+        "Tell me about sensor fusion.",
+        "What is the purpose of sensor fusion?",
+        "How does sensor fusion work?"
+      ],
+      "responses": [
+        "Sensor fusion is the process of combining data from multiple sensors to obtain a more accurate, reliable, and comprehensive understanding of an environment or system. It involves algorithms that merge data from different sources, correcting for individual sensor inaccuracies and leveraging complementary information. Sensor fusion is used in various applications, including robotics, autonomous vehicles, and IoT, to improve performance and decision-making by integrating data from sensors like accelerometers, gyroscopes, cameras, and GPS."
+      ]
+    },
+    {
+      "intent": "ask.what_is_circular_buffer",
+      "queries": [
+        "What is a circular buffer?",
+        "Can you explain circular buffers?",
+        "Tell me about circular buffers.",
+        "What is the purpose of a circular buffer?",
+        "How do circular buffers work?"
+      ],
+      "responses": [
+        "A circular buffer, also known as a ring buffer, is a data structure that uses a single, fixed-size buffer as if it were connected end-to-end. It is used for buffering data streams, allowing data to be written to and read from the buffer in a circular manner. When the buffer is full, new data overwrites the oldest data. Circular buffers are efficient for implementing queues, handling streaming data, and managing resource-constrained environments in embedded systems. They provide constant-time insert and remove operations."
+      ]
+    },
+    {
+      "intent": "ask.what_is_embedded_c",
+      "queries": [
+        "What is Embedded C?",
+        "Can you explain Embedded C?",
+        "Tell me about Embedded C.",
+        "What is the purpose of Embedded C?",
+        "How does Embedded C work?"
+      ],
+      "responses": [
+        "Embedded C is a set of language extensions for the C programming language that are specifically designed for programming embedded systems. It includes additional features for directly accessing hardware, manipulating I/O registers, and handling interrupts. Embedded C is widely used in the development of firmware and software for microcontrollers, offering low-level control, efficient execution, and portability across different platforms. It enables developers to write code that interacts directly with hardware components."
+      ]
+    },
+    {
+      "intent": "ask.what_is_flash_memory",
+      "queries": [
+        "What is flash memory?",
+        "Can you explain flash memory?",
+        "Tell me about flash memory.",
+        "What is the purpose of flash memory?",
+        "How does flash memory work?"
+      ],
+      "responses": [
+        "Flash memory is a type of non-volatile memory that can be electronically erased and reprogrammed. It is widely used in embedded systems for storing firmware, configuration data, and user data. Flash memory retains data even when the power is turned off, making it suitable for applications where data persistence is critical. There are two main types of flash memory: NOR flash, which is faster for read operations, and NAND flash, which is more efficient for storage and write operations."
+      ]
+    },
+    {
+      "intent": "ask.what_is_mqtt",
+      "queries": [
+        "What is MQTT?",
+        "Can you explain MQTT?",
+        "Tell me about MQTT.",
+        "What is the purpose of MQTT?",
+        "How does MQTT work?"
+      ],
+      "responses": [
+        "MQTT (Message Queuing Telemetry Transport) is a lightweight, publish-subscribe network protocol used for machine-to-machine (M2M) and Internet of Things (IoT) communication. It is designed for low-bandwidth, high-latency, or unreliable networks, making it ideal for embedded systems. MQTT uses a broker to manage message distribution between clients, enabling efficient and scalable communication. It is commonly used in applications like remote monitoring, telemetry, and smart home devices."
+      ]
+    },
+    {
+      "intent": "ask.what_is_systick_timer",
+      "queries": [
+        "What is a SysTick timer?",
+        "Can you explain SysTick timers?",
+        "Tell me about SysTick timers.",
+        "What is the purpose of a SysTick timer?",
+        "How do SysTick timers work?"
+      ],
+      "responses": [
+        "A SysTick timer is a system timer provided by ARM Cortex-M microcontrollers for generating periodic interrupts. It is used for implementing time-based tasks such as delays, timekeeping, and periodic function execution in embedded systems. The SysTick timer counts down from a specified value and generates an interrupt when it reaches zero, allowing the execution of an interrupt service routine (ISR). It simplifies timing operations and ensures consistent time intervals for various system functions."
+      ]
+    },
+    {
+      "intent": "ask.what_is_freertos",
+      "queries": [
+        "What is FreeRTOS?",
+        "Can you explain FreeRTOS?",
+        "Tell me about FreeRTOS.",
+        "What is the purpose of FreeRTOS?",
+        "How does FreeRTOS work?"
+      ],
+      "responses": [
+        "FreeRTOS is an open-source, real-time operating system for embedded devices that provides multitasking capabilities and a rich set of features for developing complex applications. It includes a kernel that manages task scheduling, inter-task communication, and resource management. FreeRTOS supports a wide range of microcontrollers and development tools, offering a lightweight and efficient platform for real-time applications. Its modular design and extensive documentation make it a popular choice for embedded system developers."
+      ]
+    },
+    {
+      "intent": "ask.what_is_spi_nor_flash",
+      "queries": [
+        "What is SPI NOR flash?",
+        "Can you explain SPI NOR flash?",
+        "Tell me about SPI NOR flash.",
+        "What is the purpose of SPI NOR flash?",
+        "How does SPI NOR flash work?"
+      ],
+      "responses": [
+        "SPI NOR flash is a type of non-volatile memory that uses the Serial Peripheral Interface (SPI) for communication. It is known for its high read speed and reliability, making it suitable for storing firmware, configuration data, and boot code in embedded systems. SPI NOR flash memory allows for efficient and compact storage solutions with easy integration into microcontroller-based designs. It provides features like byte- or sector-level erase, write, and read operations, enabling flexible and durable data storage."
+      ]
+    },
+    {
+      "intent": "ask.what_is_canopen",
+      "queries": [
+        "What is CANopen?",
+        "Can you explain CANopen?",
+        "Tell me about CANopen.",
+        "What is the purpose of CANopen?",
+        "How does CANopen work?"
+      ],
+      "responses": [
+        "CANopen is a communication protocol based on the CAN (Controller Area Network) bus, designed for embedded control systems. It is widely used in industrial automation, medical equipment, and transportation systems. CANopen provides standardized communication profiles for device interoperability, enabling efficient data exchange and control among multiple devices on the same network. The protocol supports features such as network management, device configuration, and real-time data transfer, making it suitable for complex distributed systems."
+      ]
+    },
+    {
+      "intent": "ask.what_is_modbus",
+      "queries": [
+        "What is Modbus?",
+        "Can you explain Modbus?",
+        "Tell me about Modbus.",
+        "What is the purpose of Modbus?",
+        "How does Modbus work?"
+      ],
+      "responses": [
+        "Modbus is a serial communication protocol used for transmitting information over serial lines between electronic devices. It is commonly used in industrial applications for communication between programmable logic controllers (PLCs) and various sensors and instruments. Modbus supports different transmission modes, such as RTU (Remote Terminal Unit) and ASCII, providing flexible and reliable data exchange. It is known for its simplicity, robustness, and ease of implementation, making it a popular choice for industrial automation systems."
+      ]
+    },
+    {
+      "intent": "ask.what_is_embedded_virtualization",
+      "queries": [
+        "What is embedded virtualization?",
+        "Can you explain embedded virtualization?",
+        "Tell me about embedded virtualization.",
+        "What is the purpose of embedded virtualization?",
+        "How does embedded virtualization work?"
+      ],
+      "responses": [
+        "Embedded virtualization is the use of virtualization technology in embedded systems to create multiple virtual machines (VMs) on a single physical device. It allows for the separation of different software components, improving security, reliability, and resource utilization. Embedded virtualization is used in applications such as automotive systems, industrial automation, and IoT devices, enabling the consolidation of multiple functions onto a single hardware platform. It provides isolation between VMs, ensuring that faults or security breaches in one VM do not affect others"
+      ]
+    },
+    {
+      "intent": "ask.what_is_firmware_update_over_the_air",
+      "queries": [
+        "What is firmware update over the air?",
+        "Can you explain firmware update over the air?",
+        "Tell me about firmware update over the air.",
+        "What is the purpose of firmware update over the air?",
+        "How does firmware update over the air work?"
+      ],
+      "responses": [
+        "Firmware update over the air (FOTA) is a method of remotely updating the firmware of embedded devices through a wireless connection. It enables manufacturers and developers to deploy new features, fix bugs, and improve device performance without requiring physical access to the device. FOTA is commonly used in IoT devices, smartphones, and automotive systems, providing a convenient and efficient way to manage firmware updates. The process typically involves downloading the firmware update over a network and securely applying it to the device."
+      ]
+    },
+    {
+      "intent": "ask.what_is_i2c",
+      "queries": [
+        "What is I2C?",
+        "Can you explain I2C?",
+        "Tell me about I2C.",
+        "What is the purpose of I2C?",
+        "How does I2C work?"
+      ],
+      "responses": [
+        "I2C (Inter-Integrated Circuit) is a multi-master, multi-slave serial communication protocol used for connecting low-speed peripherals to microcontrollers and processors. It uses two bidirectional lines, SCL (Serial Clock) and SDA (Serial Data), to transmit data between devices. I2C is widely used in embedded systems for communication between sensors, actuators, and other components. It supports addressing multiple devices on the same bus, providing a simple and efficient way to connect and control various peripherals."
+      ]
+    },
+    {
+      "intent": "ask.what_is_spi",
+      "queries": [
+        "What is SPI?",
+        "Can you explain SPI?",
+        "Tell me about SPI.",
+        "What is the purpose of SPI?",
+        "How does SPI work?"
+      ],
+      "responses": [
+        "SPI (Serial Peripheral Interface) is a synchronous serial communication protocol used for short-distance communication, primarily in embedded systems. It involves a master device that controls the communication and one or more slave devices. SPI uses four lines: SCLK (Serial Clock), MOSI (Master Out Slave In), MISO (Master In Slave Out), and SS (Slave Select). SPI is known for its high-speed data transfer, simple implementation, and full-duplex communication, making it suitable for connecting peripherals like sensors, displays, and memory devices."
+      ]
+    },
+    {
+      "intent": "ask.what_is_uart",
+      "queries": [
+        "What is UART?",
+        "Can you explain UART?",
+        "Tell me about UART.",
+        "What is the purpose of UART?",
+        "How does UART work?"
+      ],
+      "responses": [
+        "UART (Universal Asynchronous Receiver/Transmitter) is a hardware communication protocol used for asynchronous serial communication between devices. It converts parallel data from the microcontroller into serial form for transmission and vice versa. UART is commonly used in embedded systems for communication between microcontrollers, sensors, and other devices. It involves two main lines, TX (Transmit) and RX (Receive), and operates without a clock signal, making it simple and cost-effective for short-distance communication."
+      ]
+    },
+    {
+      "intent": "ask.what_is_embedded_iot",
+      "queries": [
+        "What is embedded IoT?",
+        "Can you explain embedded IoT?",
+        "Tell me about embedded IoT.",
+        "What is the purpose of embedded IoT?",
+        "How does embedded IoT work?"
+      ],
+      "responses": [
+        "Embedded IoT (Internet of Things) refers to the integration of embedded systems with internet connectivity, enabling devices to collect, exchange, and process data remotely. It involves using microcontrollers, sensors, and communication modules to create smart, connected devices for various applications such as smart homes, industrial automation, and healthcare. Embedded IoT systems often utilize protocols like MQTT, CoAP, and HTTP for communication and rely on cloud platforms for data storage and analysis."
+      ]
+    },
+    {
+      "intent": "ask.what_is_computer_graphics",
+      "queries": [
+        "What is computer graphics?",
+        "Can you explain computer graphics?",
+        "Tell me about computer graphics.",
+        "What is the purpose of computer graphics?",
+        "How do computer graphics work?"
+      ],
+      "responses": [
+        "Computer graphics is the field of visual computing that deals with the generation, manipulation, and representation of visual images using computers. It encompasses both the creation of images and animations as well as the techniques for rendering 2D and 3D graphics. Applications of computer graphics include video games, movies, simulations, and graphic design."
+      ]
+    },
+    {
+      "intent": "ask.what_is_ray_tracing",
+      "queries": [
+        "What is ray tracing?",
+        "Can you explain ray tracing?",
+        "Tell me about ray tracing.",
+        "What is the purpose of ray tracing?",
+        "How does ray tracing work?"
+      ],
+      "responses": [
+        "Ray tracing is a rendering technique that simulates the way light interacts with objects to produce realistic images. It traces the path of light rays as they travel through a scene, accounting for reflections, refractions, and shadows. Ray tracing is computationally intensive but produces highly realistic images, making it ideal for applications like movies and photorealistic rendering."
+      ]
+    },
+    {
+      "intent": "ask.what_is_shading",
+      "queries": [
+        "What is shading?",
+        "Can you explain shading?",
+        "Tell me about shading.",
+        "What is the purpose of shading?",
+        "How does shading work?"
+      ],
+      "responses": [
+        "Shading in computer graphics refers to the process of determining the color of surfaces based on light interaction. Techniques like flat shading, Gouraud shading, and Phong shading are used to simulate the effects of light on different materials, giving objects a more realistic appearance by accounting for shadows, highlights, and texture."
+      ]
+    },
+    {
+      "intent": "ask.what_is_vertex",
+      "queries": [
+        "What is a vertex?",
+        "Can you explain what a vertex is?",
+        "Tell me about vertices.",
+        "What is the purpose of a vertex?",
+        "How do vertices work in graphics?"
+      ],
+      "responses": [
+        "A vertex is a fundamental unit in 3D graphics that defines a point in space. Vertices are used to construct polygons, which form the surfaces of 3D models. Each vertex has coordinates (x, y, z) and can also carry additional data like color, normal vectors, and texture coordinates, which are essential for rendering and shading."
+      ]
+    },
+    {
+      "intent": "ask.what_is_polygon",
+      "queries": [
+        "What is a polygon?",
+        "Can you explain what a polygon is?",
+        "Tell me about polygons.",
+        "What is the purpose of a polygon?",
+        "How are polygons used in graphics?"
+      ],
+      "responses": [
+        "A polygon is a closed, two-dimensional shape formed by a series of connected vertices. In computer graphics, polygons are used to construct the surfaces of 3D models. The most common type of polygon used is the triangle, due to its simplicity and ease of processing. Polygons are fundamental in defining the shape and structure of 3D objects."
+      ]
+    },
+    {
+      "intent": "ask.what_is_normal_vector",
+      "queries": [
+        "What is a normal vector?",
+        "Can you explain what a normal vector is?",
+        "Tell me about normal vectors.",
+        "What is the purpose of a normal vector?",
+        "How are normal vectors used in graphics?"
+      ],
+      "responses": [
+        "A normal vector is a vector perpendicular to a surface or a polygon. In computer graphics, normal vectors are used to determine how light interacts with a surface, influencing shading and rendering. They are essential for calculating lighting effects, such as diffuse and specular reflections, to create realistic images."
+      ]
+    },
+    {
+      "intent": "ask.what_is_texture_mapping",
+      "queries": [
+        "What is texture mapping?",
+        "Can you explain texture mapping?",
+        "Tell me about texture mapping.",
+        "What is the purpose of texture mapping?",
+        "How does texture mapping work?"
+      ],
+      "responses": [
+        "Texture mapping is the process of applying a 2D image texture to a 3D model's surface to enhance its visual detail. It involves wrapping the texture around the model's geometry using coordinates defined by UV mapping. Texture mapping adds realism by simulating surface details like color, patterns, and material properties without increasing the model's geometric complexity."
+      ]
+    },
+    {
+      "intent": "ask.what_is_bump_mapping",
+      "queries": [
+        "What is bump mapping?",
+        "Can you explain bump mapping?",
+        "Tell me about bump mapping.",
+        "What is the purpose of bump mapping?",
+        "How does bump mapping work?"
+      ],
+      "responses": [
+        "Bump mapping is a technique used in computer graphics to simulate small-scale surface detail on a 3D model. It uses a texture map to perturb the surface normals, creating the illusion of bumps and dents without modifying the actual geometry. Bump mapping enhances the visual realism of a surface by affecting how light interacts with it."
+      ]
+    },
+    {
+      "intent": "ask.what_is_normal_mapping",
+      "queries": [
+        "What is normal mapping?",
+        "Can you explain normal mapping?",
+        "Tell me about normal mapping.",
+        "What is the purpose of normal mapping?",
+        "How does normal mapping work?"
+      ],
+      "responses": [
+        "Normal mapping is an advanced texturing technique used to add detailed surface features to a 3D model without increasing its geometric complexity. It involves using a texture map that stores normal vectors, which are used to modify the surface normals during rendering. This technique creates the illusion of complex surface details like wrinkles, grooves, and bumps, enhancing the visual realism of the model."
+      ]
+    },
+    {
+      "intent": "ask.what_is_parallax_mapping",
+      "queries": [
+        "What is parallax mapping?",
+        "Can you explain parallax mapping?",
+        "Tell me about parallax mapping.",
+        "What is the purpose of parallax mapping?",
+        "How does parallax mapping work?"
+      ],
+      "responses": [
+        "Parallax mapping is a technique used in computer graphics to create the illusion of depth and detail on a flat surface. It extends normal mapping by also considering the viewer's perspective and adjusting the texture coordinates accordingly. This creates a more pronounced effect of depth and realism, especially when viewed from different angles, making surfaces appear more three-dimensional."
+      ]
+    },
+    {
+      "intent": "ask.what_is_phong_shading",
+      "queries": [
+        "What is Phong shading?",
+        "Can you explain Phong shading?",
+        "Tell me about Phong shading.",
+        "What is the purpose of Phong shading?",
+        "How does Phong shading work?"
+      ],
+      "responses": [
+        "Phong shading is a technique used in computer graphics to achieve smooth shading on surfaces. It interpolates surface normals across each polygon and calculates the color at each pixel based on these normals and the lighting conditions. Phong shading produces more realistic highlights and smoother transitions between light and dark areas compared to flat or Gouraud shading."
+      ]
+    },
+    {
+      "intent": "ask.what_is_gouraud_shading",
+      "queries": [
+        "What is Gouraud shading?",
+        "Can you explain Gouraud shading?",
+        "Tell me about Gouraud shading.",
+        "What is the purpose of Gouraud shading?",
+        "How does Gouraud shading work?"
+      ],
+      "responses": [
+        "Gouraud shading is a technique used in computer graphics to achieve smooth shading across polygons. It interpolates vertex colors across the surface of each polygon, producing a gradient effect. This method is computationally less intensive than Phong shading but can produce less accurate highlights and shading, particularly on small or highly detailed surfaces."
+      ]
+    },
+    {
+      "intent": "ask.what_is_flat_shading",
+      "queries": [
+        "What is flat shading?",
+        "Can you explain flat shading?",
+        "Tell me about flat shading.",
+        "What is the purpose of flat shading?",
+        "How does flat shading work?"
+      ],
+      "responses": [
+        "Flat shading is a technique used in computer graphics where each polygon of a 3D model is shaded with a single color. This color is determined by the angle of the polygon relative to the light source. Flat shading gives a faceted appearance, emphasizing the individual polygons and is less computationally intensive compared to smooth shading techniques like Gouraud or Phong shading."
+      ]
+    },
+    {
+      "intent": "ask.what_is_ambient_occlusion",
+      "queries": [
+        "What is ambient occlusion?",
+        "Can you explain ambient occlusion?",
+        "Tell me about ambient occlusion.",
+        "What is the purpose of ambient occlusion?",
+        "How does ambient occlusion work?"
+      ],
+      "responses": [
+        "Ambient occlusion is a shading technique used in computer graphics to calculate how exposed each point in a scene is to ambient lighting. It adds realism by simulating the way light is blocked by nearby objects, creating soft shadows in occluded areas. Ambient occlusion enhances the perception of depth and spatial relationships in a scene, making it appear more realistic."
+      ]
+    },
+    {
+      "intent": "ask.what_is_depth_buffering",
+      "queries": [
+        "What is depth buffering?",
+        "Can you explain depth buffering?",
+        "Tell me about depth buffering.",
+        "What is the purpose of depth buffering?",
+        "How does depth buffering work?"
+      ],
+      "responses": [
+        "Depth buffering, also known as z-buffering, is a technique used in computer graphics to manage the depth of objects in a 3D scene. It ensures that pixels closer to the viewer are rendered in front of those further away, preventing visual artifacts. The depth buffer stores the depth information for each pixel, allowing the graphics engine to correctly handle overlapping objects."
+      ]
+    },
+    {
+      "intent": "ask.what_is_texturing",
+      "queries": [
+        "What is texturing?",
+        "Can you explain texturing?",
+        "Tell me about texturing.",
+        "What is the purpose of texturing?",
+        "How does texturing work?"
+      ],
+      "responses": [
+        "Texturing is the process of applying an image (texture) to the surface of a 3D model to add detail and realism. Textures can simulate various surface properties like color, bumpiness, and reflectivity. Techniques like UV mapping are used to wrap the 2D texture image around the 3D model accurately."
+      ]
+    },
+    {
+      "intent": "ask.what_is_rendering",
+      "queries": [
+        "What is rendering?",
+        "Can you explain rendering?",
+        "Tell me about rendering.",
+        "What is the purpose of rendering?",
+        "How does rendering work?"
+      ],
+      "responses": [
+        "Rendering is the process of generating an image from a model using computer programs. It involves calculating the color, lighting, texture, and shading of objects in a scene to produce a final visual output. Rendering can be done in real-time for interactive applications like video games or offline for high-quality animations and visual effects in movies."
+      ]
+    },
+    {
+      "intent": "ask.what_is_jtag",
+      "queries": [
+        "What is JTAG?",
+        "Can you explain JTAG?",
+        "Tell me about JTAG.",
+        "What is the purpose of JTAG?",
+        "How does JTAG work?"
+      ],
+      "responses": [
+        "JTAG (Joint Test Action Group) is a standard for testing and debugging integrated circuits and systems. It provides a set of test access ports (TAP) and protocols for verifying the integrity of connections and programming devices. JTAG is widely used for debugging embedded systems, allowing developers to access internal registers, memory, and peripherals for troubleshooting and code development. It also supports in-circuit programming and testing of individual components without removing them from the board."
+      ]
+    },
+    {
+      "intent": "ask.what_is_swd",
+      "queries": [
+        "What is SWD?",
+        "Can you explain SWD?",
+        "Tell me about SWD.",
+        "What is the purpose of SWD?",
+        "How does SWD work?"
+      ],
+      "responses": [
+        "SWD (Serial Wire Debug) is a two-wire protocol for debugging and programming ARM Cortex-M microcontrollers. It provides an alternative to JTAG, offering similar functionality with fewer pins, making it suitable for space-constrained applications. SWD allows developers to perform real-time debugging, memory access, and device programming. It uses a clock (SWCLK) and data (SWDIO) line for communication, enabling efficient and reliable debugging of embedded systems."
+      ]
+    },
+    {
+      "intent": "ask.what_is_ethernet_phy",
+      "queries": [
+        "What is Ethernet PHY?",
+        "Can you explain Ethernet PHY?",
+        "Tell me about Ethernet PHY.",
+        "What is the purpose of Ethernet PHY?",
+        "How does Ethernet PHY work?"
+      ],
+      "responses": [
+        "Ethernet PHY (Physical Layer) is a component responsible for the physical connection between an Ethernet device and the transmission medium. It handles tasks such as signal encoding/decoding, transmission/reception, and link management. The Ethernet PHY layer ensures reliable data transfer over the physical medium, such as twisted-pair cables or fiber optics. It works in conjunction with the MAC (Media Access Control) layer to implement the Ethernet protocol stack in embedded systems."
+      ]
+    },
+    {
+      "intent": "ask.what_is_embedded_linux_kernel",
+      "queries": [
+        "What is an embedded Linux kernel?",
+        "Can you explain embedded Linux kernels?",
+        "Tell me about embedded Linux kernels.",
+        "What is the purpose of an embedded Linux kernel?",
+        "How do embedded Linux kernels work?"
+      ],
+      "responses": [
+        "An embedded Linux kernel is a customized version of the Linux operating system kernel tailored for use in embedded systems. It provides core functionalities such as process management, memory management, and hardware abstraction, allowing developers to build robust and efficient applications. The embedded Linux kernel is optimized for specific hardware platforms and includes support for various peripherals and interfaces. Its modular design and extensive driver support make it suitable for a wide range of embedded applications."
+      ]
+    },
+    {
+      "intent": "ask.define_web_api",
+      "queries": [
+        "what is a web api",
+        "can you explain the purpose of web api",
+        "tell me something about web apis",
+        "describe web apis"
+      ],
+      "responses": [
+        "Web API helps in enabling the development of HTTP services to reach out to client entities like browser, devices or tablets."
+      ]
+    }
+  ]
+}

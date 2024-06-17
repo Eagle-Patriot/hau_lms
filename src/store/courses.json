@@ -1,0 +1,716 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "courseTitle": "CEN523: Computer Networks",
+      "author": "Covenant University",
+      "courseBanner": "https://images.unsplash.com/photo-1520869562399-e772f042f422?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "videos": [
+        {
+          "id": 1,
+          "videoTitle": "OSI Model Explained",
+          "link": "https://youtu.be/vv4y_uOneC0?si=EwhOlq23gxNF0ACZ",
+          "description": "Learn computer network layers or OSI layers in a computer network, OSI Model, OSI reference model or open system interconnection model or networking model including Application Layer, Presentation Layer, Session Layer, Transport Layer, Network Layer, Data Link Layer and Physical layer. Definition, Function, and use of the OSI network model. Protocols in computer network layers of OSI model.",
+          "youtubeID": "vv4y_uOneC0"
+        },
+        {
+          "id": 2,
+          "videoTitle": "What is Firewall",
+          "link": "https://youtu.be/aUPoA3MSajU?si=9bElqM8Ae3XWsxCY",
+          "description": "Learn different types of firewall, types of firewall software, types of hardware firewall, different types of firewalls, types of firewalls, types firewall, types of firewalls in network security, different types of hardware firewalls, types of firewall, different types of firewall, firewall configuration types, firewall types, 7 types of firewall, types of firewall in network security, types of firewall with diagram, firewall and types of firewall, types of network firewalls, firewall and its types, what is firewall and types of firewall, types of firewall architecture, types of firewall in networking, different types of firewall in network security, what is firewall and write the types of firewall, types of firewall attacks, firewall and types, firewall types and configuration, different types of firewalls and their functions.",
+          "youtubeID": "aUPoA3MSajU"
+        },
+        {
+          "id": 3,
+          "videoTitle": "Network Devices",
+          "link": "https://youtu.be/eMamgWllRFY?si=IrojiaUgDrdK9MPq",
+          "description": "Basic introduction to network devices",
+          "youtubeID": "eMamgWllRFY"
+        },
+        {
+          "id": 4,
+          "videoTitle": "MPLS - Multiprotocol Label Switching (2.5 layer protocol)",
+          "link": "https://www.youtube.com/watch?v=BuIWNecUAE8&list=PLl3XxSJZhiZVlTSTsMeuOu073rHqAvYl6&index=6",
+          "description": "MPLS can create end-to-end paths that act like circuit-switched connections, but deliver layer 3 IP packet. As we know, routing is the layer 3 function while switching is the layer 2 function. MPLs makes those routers on the Internet act like switches on a local network. That is why MPLS is also called 2.5 layer protocol.",
+          "youtubeID": "BuIWNecUAE8"
+        },
+        {
+          "id": 5,
+          "videoTitle": "Circuit Switching vs Packet Switching | Circuit Switched Network vs Packet switched network",
+          "link": "https://www.youtube.com/watch?v=oUN-s6aFMTk&list=PLl3XxSJZhiZVlTSTsMeuOu073rHqAvYl6&index=7",
+          "description": "Difference of network switching techniques involving circuit switching and packet switching in circuit switched networks and packet switched networks are explained with examples.",
+          "youtubeID": "oUN-s6aFMTk"
+        },
+        {
+          "id": 6,
+          "videoTitle": "IDS vs IPS vs Firewall",
+          "link": "https://www.youtube.com/watch?v=l7FeR1MIRFY&list=PLl3XxSJZhiZVlTSTsMeuOu073rHqAvYl6&index=8",
+          "description": "This video describes the difference between Firewall vs IDS vs IPS in detail.",
+          "youtubeID": "l7FeR1MIRFY"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "courseTitle": "EIE 523: Artificial Intelligence",
+      "author": "Covenant University",
+      "courseBanner": "https://images.unsplash.com/photo-1592431913823-7af6b323da9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "videos": [
+        {
+          "id": 1,
+          "videoTitle": "Accelerated Natural Language Processing 1.1 - Course Introduction",
+          "link": "https://www.youtube.com/watch?v=0FXKbEgz-uU&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw",
+          "description": "In this video, we go over the course overview, learning outcomes and machine learning resources that we will use in this class.",
+          "youtubeID": "0FXKbEgz-uU"
+        },
+        {
+          "id": 2,
+          "videoTitle": "Accelerated Natural Language Processing 1.2 - Introduction to Machine Learning",
+          "link": "https://www.youtube.com/watch?v=qpGGR9e1_Fo&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=2",
+          "description": "In this video, we make an introduction to Machine Learning (ML). We learn machine learning lifecycle that gives us a high level view of some important ML processes and cover some useful ML keywords.",
+          "youtubeID": "qpGGR9e1_Fo"
+        },
+        {
+          "id": 3,
+          "videoTitle": "Accelerated Natural Language Processing 1.3 - ML Applications",
+          "link": "https://www.youtube.com/watch?v=D6pMnwjj6AU&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=3",
+          "description": "We give some ML application examples in this video. We go over ranking, recommendation, classification, regression, clustering and anomaly detection applications and see some examples",
+          "youtubeID": "D6pMnwjj6AU"
+        },
+        {
+          "id": 4,
+          "videoTitle": "Accelerated Natural Language Processing 1.4 - Supervised and Unsupervised Learning",
+          "link": "https://www.youtube.com/watch?v=lXHyikKT_hw&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=4",
+          "description": "In this video, we learn supervised and unsupervised learning. We then see more details on supervised learning with regression and classification example problems and also have an example for unsupervised learning.",
+          "youtubeID": "lXHyikKT_hw"
+        },
+        {
+          "id": 5,
+          "videoTitle": "Accelerated Natural Language Processing 1.5 - Class Imbalance",
+          "link": "https://www.youtube.com/watch?v=GvK_8UXStOo&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=5",
+          "description": "We look at the class imbalance problem in this video and go over some methods to fix it.",
+          "youtubeID": "GvK_8UXStOo"
+        },
+        {
+          "id": 6,
+          "videoTitle": "Accelerated Natural Language Processing 1.6 - Missing Values",
+          "link": "https://www.youtube.com/watch?v=MvbYoMHoou4&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=6",
+          "description": "In this video, we go over missing values topic which is a common issue in machine learning problems. We learn to solve this problem by dropping records or by using some imputation methods.",
+          "youtubeID": "MvbYoMHoou4"
+        },
+        {
+          "id": 7,
+          "videoTitle": "Accelerated Natural Language Processing 1.7 - Model Evaluation",
+          "link": "https://www.youtube.com/watch?v=2MXtSJz5e0g&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=7",
+          "description": "In this video, we learn model evaluation metrics, dataset splitting and overfitting-underfitting cases. For model evaluation, we consider regression and classification specific metrics. We then explain the dataset splitting process that allows us to get training, validation and test sets. We also talk about how to find out whether our ML models might be underfitting or overfitting.",
+          "youtubeID": "2MXtSJz5e0g"
+        },
+        {
+          "id": 8,
+          "videoTitle": "Accelerated Natural Language Processing 1.8 - Introduction to NLP",
+          "link": "https://www.youtube.com/watch?v=xUxw6C_z2kA&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=8",
+          "description": "We make introduction to NLP and learn these NLP terms: Corpus, Token and Feature vector in this video.",
+          "youtubeID": "xUxw6C_z2kA"
+        },
+        {
+          "id": 9,
+          "videoTitle": "Accelerated Natural Language Processing 1.9 - Machine Learning and Text",
+          "link": "https://www.youtube.com/watch?v=cAf9J9dR4u4&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=9",
+          "description": "In this video, we learn a simple pipeline to process text information. Machine learning models need well defined numerical data. Our pipeline takes text data and applies pre-processing operations on it. Then, it converts it into numerical representation with the vectorization step. After that, we can use a simple machine learning model on the data.",
+          "youtubeID": "cAf9J9dR4u4"
+        },
+        {
+          "id": 10,
+          "videoTitle": "Accelerated Natural Language Processing 1.10 - Text Preprocessing",
+          "link": "https://www.youtube.com/watch?v=BERgPsvyESs&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=10",
+          "description": "We give more details about text pre-processing in this video. We learn tokenization, stop words removal and stemming-lemmatization methods. These methods will clean-up and normalize our text data.",
+          "youtubeID": "BERgPsvyESs"
+        },
+        {
+          "id": 11,
+          "videoTitle": "Accelerated Natural Language Processing 1.11 - Text Vectorization",
+          "link": "https://www.youtube.com/watch?v=TcLlCNmiD3Y&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=11",
+          "description": "In this video, we learn how to convert text data into numerical representation using Bag of Words method. This is an easy method that uses word counts/frequencies and gets numerical features from text data. We go over word counts, Term Frequency (TF) and Term Frequency - Inverse Document Frequency (TF-IDF).",
+          "youtubeID": "TcLlCNmiD3Y"
+        },
+        {
+          "id": 12,
+          "videoTitle": "Accelerated Natural Language Processing 1.12 - K Nearest Neighbors",
+          "link": "https://www.youtube.com/watch?v=Up1WhKPBlqM&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=12",
+          "description": "We introduce the K Nearest Neighbors model in this video. We first understand how this model works. We then learn how to choose the K parameter and use different distance metrics. We also learn how curse of dimensionality affects this model and why feature scaling helps getting better outcomes.",
+          "youtubeID": "Up1WhKPBlqM"
+        },
+        {
+          "id": 13,
+          "videoTitle": "Using Jupyter Notebooks on Sagemaker",
+          "link": "https://www.youtube.com/watch?v=-DKydfPFqBM&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=13",
+          "description": "In this video, we learn how to run Jupyter notebooks on Sagemaker. GitHub repositories: Accelerated NLP,  Accelerated CV, Accelerated TAB",
+          "youtubeID": "-DKydfPFqBM"
+        },
+        {
+          "id": 14,
+          "videoTitle": "Accelerated Natural Language Processing 2.1 - Tree-based Models",
+          "link": "https://www.youtube.com/watch?v=kvSWoAge8vs&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=14",
+          "description": "We understand the working principles of decision trees in this video. We fit a simple decision tree on a sample dataset. We then introduce the impurity concept with Gini impurity score and explain the split condition selection process. After decision tree discussion, we learn how to build ensemble models using Bagging approach.",
+          "youtubeID": "kvSWoAge8vs"
+        },
+        {
+          "id": 15,
+          "videoTitle": "Accelerated Natural Language Processing 2.2 - Regression Models",
+          "link": "https://www.youtube.com/watch?v=sGy8yWq9O1g&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=15",
+          "description": "In this section, we learn two highly popular machine learning models: Linear and Logistic regression. We understand the equations and cost functions of each model.",
+          "youtubeID": "sGy8yWq9O1g"
+        },
+        {
+          "id": 16,
+          "videoTitle": "Accelerated Natural Language Processing 2.3 - Optimization",
+          "link": "https://www.youtube.com/watch?v=sphTv3omQ6I&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=16",
+          "description": "In this video, we learn the basics of optimization topic which is key to training many machine learning models. We start with the gradient concept and then introduce gradient descent optimization technique.",
+          "youtubeID": "sphTv3omQ6I"
+        },
+        {
+          "id": 17,
+          "videoTitle": "Accelerated Natural Language Processing 2.4 - Regularization",
+          "link": "https://www.youtube.com/watch?v=C6ZbAtr6agY&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=17",
+          "description": "In this video, we learn another key concept in machine learning: Regularization. With regularization we are able to get ML models that can generalize well on test sets. We learn L1, L2 and ElasticNet regularizations and also see the Sklearn interfaces for them.",
+          "youtubeID": "C6ZbAtr6agY"
+        },
+        {
+          "id": 18,
+          "videoTitle": "Accelerated Natural Language Processing 2.5 - Hyperparameter Tuning",
+          "link": "https://www.youtube.com/watch?v=Zrx2PRU3J3k&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=18",
+          "description": "We learn how to find a good combination of hyperparameters using different approaches in this video. We cover grid search, randomized search and bayesian search.",
+          "youtubeID": "Zrx2PRU3J3k"
+        },
+        {
+          "id": 19,
+          "videoTitle": "Accelerated Natural Language Processing 3.1 - Neural Networks",
+          "link": "https://www.youtube.com/watch?v=fW-9HunNYFQ&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=19",
+          "description": "In this video, we cover one of the most important modern machine learning models: Neural Network. We introduce neural networks using their similarity to the regression models that we learned. We learn the layered structure of neural networks, how data is passed with forward propagation and how training works. Then, we see more details on training process with cost functions and the gradient descent method.",
+          "youtubeID": "fW-9HunNYFQ"
+        },
+        {
+          "id": 20,
+          "videoTitle": "Accelerated Natural Language Processing 3.2 - Word Vectors",
+          "link": "https://www.youtube.com/watch?v=BwsGoFDn06g&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=20",
+          "description": "In this video, we learn how to build embedding vectors for the words in our corpus. We also call these word vectors. With these vectors, we are able to capture semantic similarity between words. We use dot product to measure similarity between word vectors. We then see details of Skip-gram and Continuous Bag of Words (CBOW) methods and build a probabilistic model that gives word vectors.",
+          "youtubeID": "BwsGoFDn06g"
+        },
+        {
+          "id": 21,
+          "videoTitle": "Accelerated Natural Language Processing 3.3 - Recurrent Neural Networks",
+          "link": "https://www.youtube.com/watch?v=mgq6-jwGtcA&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=21",
+          "description": "In this video, we learn a new type of neural network: Recurrent Neural Network (RNN). RNNs are usually used to process sequential data. We learn the overall structure of RNNs and understand how they use internal hidden states to preserve and update sequential information.",
+          "youtubeID": "mgq6-jwGtcA"
+        },
+        {
+          "id": 22,
+          "videoTitle": "Accelerated Natural Language Processing 3.4 - Gated Recurrent Units (GRUs)",
+          "link": "https://www.youtube.com/watch?v=XjnLlBK64ZY&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=22",
+          "description": "In this video, we build on the idea of RNNs and introduce a new type of network. Gated Recurrent Units (GRUs) use internal gates to control hidden state updates. We introduce update and forget gates. Reset gate decides how much to remove from the previous hidden state. We also calculate a candidate hidden state. We use the update gate to decide how much we want to include this candidate in the overall hidden state.",
+          "youtubeID": "XjnLlBK64ZY"
+        },
+        {
+          "id": 23,
+          "videoTitle": "Accelerated Natural Language Processing 3.5 - Long Short Term Memory (LSTM) Networks",
+          "link": "https://www.youtube.com/watch?v=Upz07pfaJm8&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=23",
+          "description": "Long Short Term Memory (LSTM) Networks use a similar approach like the Gated Recurrent Units (GRUs). In this video, we learn the internal pieces of LSTMs and understand how they work together to preserve and update sequential information.",
+          "youtubeID": "Upz07pfaJm8"
+        },
+        {
+          "id": 24,
+          "videoTitle": "Accelerated Natural Language Processing 3.6 - Transformers",
+          "link": "https://www.youtube.com/watch?v=mV8c9dJpxQE&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=24",
+          "description": "In this video, we make an introduction to Transformers. We explain the key, value, query concepts using a linguistic approach.",
+          "youtubeID": "mV8c9dJpxQE"
+        },
+        {
+          "id": 25,
+          "videoTitle": "Accelerated Natural Language Processing 3.7 - Single Headed Attention",
+          "link": "https://www.youtube.com/watch?v=flHtAUGB0PU&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=25",
+          "description": "In this video, we learn how to implement the query, key, value concepts using a neural network approach. We call this method \"Single Headed Attention\".",
+          "youtubeID": "flHtAUGB0PU"
+        },
+        {
+          "id": 26,
+          "videoTitle": "Accelerated Natural Language Processing 3.8 - Multi Headed Attention",
+          "link": "https://www.youtube.com/watch?v=N9AGY-Z6tbM&list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw&index=26",
+          "description": "In this video, we introduce Multi Headed Attention concept and conclude Transformers topic. We learn that Multi-headed attention helps to cover a broader range of word meanings. Then, we briefly go over Transformer architecture and give example models.",
+          "youtubeID": "N9AGY-Z6tbM"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "courseTitle": "EIE314: Electrical Circuits",
+      "author": "Covenant University",
+      "courseBanner": "https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "videos": [
+        {
+          "id": 1,
+          "videoTitle": "Source Transformations",
+          "link": "https://youtu.be/HNPsjsLKQDk?si=lMZQO3uXUrueOU_L",
+          "description": "In this lesson the student will learn how to use source transformations to simplify a circuti.",
+          "youtubeID": "HNPsjsLKQDk"
+        },
+        {
+          "id": 2,
+          "videoTitle": "Frequency Response",
+          "link": "https://www.youtube.com/watch?v=N8zDuuUDqfw&list=PLl3XxSJZhiZW0qT3fbvQGbn60Z5z5s8_B&index=13",
+          "description": "We will find the transfer function of output voltage divided by input current of a circuit.",
+          "youtubeID": "N8zDuuUDqfw"
+        },
+        {
+          "id": 3,
+          "videoTitle": "Source Transformation | Electric Circuits | Practice Problem 4.6",
+          "link": "https://www.youtube.com/watch?v=16cG3i9ZKzc&list=PLl3XxSJZhiZW0qT3fbvQGbn60Z5z5s8_B&index=4",
+          "description": "In this video, we will solve a practice problem on source transformation.",
+          "youtubeID": "16cG3i9ZKzc"
+        },
+        {
+          "id": 4,
+          "videoTitle": "Electrical Engineering: Ch 9: 2nd Order Circuits (1 of 76) What is a 2nd Order Circuit?",
+          "link": "https://www.youtube.com/watch?v=BY4ounBzi3I&list=PLl3XxSJZhiZW0qT3fbvQGbn60Z5z5s8_B&index=6",
+          "description": "In this video I will explain what are second order circuits- a circuit (series or parallel) that contains a resistor and 2-energy storing devices (capacitors and inductors)",
+          "youtubeID": "BY4ounBzi3I"
+        },
+        {
+          "id": 5,
+          "videoTitle": "Electrical Engineering: Ch 4: Circuit Theorems (31 of 35) Source Modeling: The Current Source",
+          "link": "https://www.youtube.com/watch?v=FZJKtCkMwAY&list=PLl3XxSJZhiZW0qT3fbvQGbn60Z5z5s8_B&index=7",
+          "description": "In this video I will explain how the current source is dependent on the Norton resistance and the load resistance.",
+          "youtubeID": "FZJKtCkMwAY"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "courseTitle": "GEC320: Engineering Mathematics",
+      "author": "Covenant University",
+      "courseBanner": "https://images.unsplash.com/photo-1632571401005-458e9d244591?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "videos": [
+        {
+          "id": 1,
+          "videoTitle": "Gauss Elimination Example 3 | 3x3 Matrix | Numerical Methods",
+          "link": "https://www.youtube.com/watch?v=PCkLz5-vo3U&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=2",
+          "description": "",
+          "youtubeID": "PCkLz5-vo3Us"
+        },
+        {
+          "id": 2,
+          "videoTitle": "Lagrange Polynomial Interpolation Introduction | Numerical Methods",
+          "link": "https://www.youtube.com/watch?v=WqREhIYPfkQ&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=3",
+          "description": "",
+          "youtubeID": "WqREhIYPfkQ"
+        },
+        {
+          "id": 3,
+          "videoTitle": "Gauss central forward & backward difference problems || Gauss central difference",
+          "link": "https://www.youtube.com/watch?v=lCkGZ1LTQx4&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=4",
+          "description": "This video is about  gauss central difference of forward & backward problems | gauss forward central difference formula | gauss backward central difference formula | numerical analysis |",
+          "youtubeID": "lCkGZ1LTQx4"
+        },
+        {
+          "id": 4,
+          "videoTitle": "Euler's Method Differential Equations, Examples, Numerical Methods, Calculus",
+          "link": "https://www.youtube.com/watch?v=ukNbG7muKho&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=5",
+          "description": "",
+          "youtubeID": "ukNbG7muKho"
+        },
+        {
+          "id": 5,
+          "videoTitle": "Newton Raphson Method | Numerical Methods | Formula & Example",
+          "link": "https://www.youtube.com/watch?v=7eHuQXMCOvA&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=6",
+          "description": "",
+          "youtubeID": "7eHuQXMCOvA"
+        },
+        {
+          "id": 6,
+          "videoTitle": "Runge-Kutta Method Introduction",
+          "link": "https://www.youtube.com/watch?v=kUcc8vAgoQ0&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=7",
+          "description": "",
+          "youtubeID": "kUcc8vAgoQ0"
+        },
+        {
+          "id": 7,
+          "videoTitle": "Trapezoidal Rule | Numerical Methods | Formula & Example",
+          "link": "https://www.youtube.com/watch?v=Rn9Gr52zhrY&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=8",
+          "description": "",
+          "youtubeID": "Rn9Gr52zhrY"
+        },
+        {
+          "id": 8,
+          "videoTitle": "Simpson's Rule & Numerical Integration",
+          "link": "https://www.youtube.com/watch?v=7EqRRuh-5Lk&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=9",
+          "description": "",
+          "youtubeID": "7EqRRuh-5Lk"
+        },
+        {
+          "id": 9,
+          "videoTitle": "Numerical Methods: Bisection Method",
+          "link": "https://www.youtube.com/watch?v=5J1JYc7J9ZQ&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=10",
+          "description": "",
+          "youtubeID": "5J1JYc7J9ZQ"
+        },
+        {
+          "id": 10,
+          "videoTitle": "Numerical Methods: False Position Method",
+          "link": "https://www.youtube.com/watch?v=5J1JYc7J9ZQ&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=11",
+          "description": "",
+          "youtubeID": "5J1JYc7J9ZQ"
+        },
+        {
+          "id": 11,
+          "videoTitle": "Numerical Methods: Newton Raphson Method",
+          "link": "https://www.youtube.com/watch?v=7eHuQXMCOvA&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=12",
+          "description": "",
+          "youtubeID": "7eHuQXMCOvA"
+        },
+        {
+          "id": 12,
+          "videoTitle": "Numerical Methods: Secant Method",
+          "link": "https://www.youtube.com/watch?v=7eHuQXMCOvA&list=PLl3XxSJZhiZVEz7seAXgMShkOKIjY3Ogf&index=13",
+          "description": "",
+          "youtubeID": "7eHuQXMCOvA"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "courseTitle": "GEC310: Engineering Mathematics 1",
+      "author": "Covenant University",
+      "courseBanner": "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "videos": [
+        {
+          "id": 1,
+          "videoTitle": "Gradient of a Vector | Vector Calculus",
+          "link": "https://www.youtube.com/watch?v=1LpyTH9KJSk&list=PLl3XxSJZhiZVlp_u__0GnKoU3G1i8o9Wn&index=2",
+          "description": "Topics covered under playlist of VECTOR CALCULUS: Gradient of a Vector, Directional Derivative, Divergence, Curl of a Vector, Directional Derivative, Line Integrals, Surface Integrals, Green's Theorem, Gauss Divergence Theorem, Stoke's Theorem.",
+          "youtubeID": "1LpyTH9KJSk"
+        },
+        {
+          "id": 2,
+          "videoTitle": "Directional Derivative, Divergence and Curl of a Vector | Complete Concept | Vector Calculus",
+          "link": "https://www.youtube.com/watch?v=57EOiROT8I0&list=PLl3XxSJZhiZVlp_u__0GnKoU3G1i8o9Wn&index=3",
+          "description": "Topics covered under playlist of VECTOR CALCULUS: Gradient of a Vector, Directional Derivative, Divergence, Curl of a Vector, Directional Derivative, Line Integrals, Surface Integrals, Green's Theorem, Gauss Divergence Theorem, Stoke's Theorem.",
+          "youtubeID": "57EOiROT8I0"
+        },
+        {
+          "id": 3,
+          "videoTitle": "Laplace Transform",
+          "link": "https://www.youtube.com/watch?v=OiNh2DswFt4&list=PLl3XxSJZhiZVlp_u__0GnKoU3G1i8o9Wn&index=4",
+          "description": "Introduction to the Laplace Transform",
+          "youtubeID": "OiNh2DswFt4"
+        },
+        {
+          "id": 4,
+          "videoTitle": "Translation and Inverse Laplace Transforms",
+          "link": "https://www.youtube.com/watch?v=PNSvSCkkLBo&list=PLl3XxSJZhiZVlp_u__0GnKoU3G1i8o9Wn&index=5",
+          "description": "This is part of my series on the Laplace Transforms in my Differential Equations",
+          "youtubeID": "PNSvSCkkLBo"
+        },
+        {
+          "id": 5,
+          "videoTitle": "Laplace Transform of Derivatives",
+          "link": "https://www.youtube.com/watch?v=J9vJ5JY6J8A&list=PLl3XxSJZhiZVlp_u__0GnKoU3G1i8o9Wn&index=6",
+          "description": "This is part of my series"
+        },
+        {
+          "id": 6,
+          "videoTitle": "Laplace Transform of Integrals",
+          "link": "https://www.youtube.com/watch?v=J9vJ5JY6J8A&list=PLl3XxSJZhiZVlp_u__0GnKoU3G1i8o9Wn&index=7",
+          "description": "This is part of my series"
+        },
+        {
+          "id": 7,
+          "videoTitle": "Laplace Transform of Periodic Functions",
+          "link": "https://www.youtube.com/watch?v=J9vJ5JY6J8A&list=PLl3XxSJZhiZVlp_u__0GnKoU3G1i8o9Wn&index=8",
+          "description": "This is part of my series"
+        },
+        {
+          "id": 8,
+          "videoTitle": "Laplace Transform of Heaviside Functions",
+          "link": "https://www.youtube.com/watch?v=J9vJ5JY6J8A&list=PLl3XxSJZhiZVlp_u__0GnKoU3G1i8o9Wn&index=9",
+          "description": "This is part of my series"
+        },
+        {
+          "id": 9,
+          "videoTitle": "Laplace Transform of Dirac Delta Functions",
+          "link": "https://www.youtube.com/watch?v=J9vJ5JY6J8A&list=PLl3XxSJZhiZVlp_u__0GnKoU3G1i8o9Wn&index=10",
+          "description": "This is part of my series"
+        },
+        {
+          "id": 10,
+          "videoTitle": "Laplace Transform of Unit Step Functions",
+          "link": "https://www.youtube.com/watch?v=J9vJ5JY6J8A&list=PLl3XxSJZhiZVlp_u__0GnKoU3G1i8o9Wn&index=11",
+          "description": "This is part of my series"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "courseTitle": "EIE323: Analog Systems",
+      "author": "Covenant University",
+      "courseBanner": "https://images.unsplash.com/photo-1534224039826-c7a0eda0e6b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "videos": [
+        {
+          "id": 1,
+          "videoTitle": "Introduction to Operational Amplifier: Characteristics of Ideal Op-Amp",
+          "link": "https://www.youtube.com/watch?v=kiiA6WTCQn0&list=PLl3XxSJZhiZXmV83bEW2EEJbFMEUsBqjB&index=2",
+          "description": "In this video, the basic introduction of the Operational Amplifier (Op-Amp) has been given and different characteristics of ideal and real Op-amp (General Purpose 741 Op-Amp) has been discussed.",
+          "youtubeID": "kiiA6WTCQn0"
+        },
+        {
+          "id": 2,
+          "videoTitle": "Operational Amplifier: Inverting Op Amp and The Concept of Virtual Ground in Op Amp",
+          "link": "https://www.youtube.com/watch?v=AuZ00cQ0UrE&list=PLl3XxSJZhiZXmV83bEW2EEJbFMEUsBqjB&index=3",
+          "description": "In this video, the inverting Op-Amp configuration and the concept of virtual ground in Op-Amp has been discussed.",
+          "youtubeID": "AuZ00cQ0UrE"
+        },
+        {
+          "id": 3,
+          "videoTitle": "Operational Amplifier: Non-Inverting Op-Amp and Op-Amp as Buffer (Op-Amp as Voltage Follower)",
+          "link": "https://www.youtube.com/watch?v=uyOfonR_rEw&list=PLl3XxSJZhiZXmV83bEW2EEJbFMEUsBqjB&index=4",
+          "description": "In this video, the non-inverting op-amp configuration and how to use Op-Amp as a buffer or as a voltage follower (Unity Gain Amplifier) has been discussed.",
+          "youtubeID": "uyOfonR_rEw"
+        },
+        {
+          "id": 4,
+          "videoTitle": "Op-Amp: Summing Amplifier (Inverting and Non-Inverting Summing Amplifiers)",
+          "link": "https://www.youtube.com/watch?v=jsKSfaFQ4d4&list=PLl3XxSJZhiZXmV83bEW2EEJbFMEUsBqjB&index=5",
+          "description": "In this video, the inverting and the non-inverting summing amplifiers using op-amp has been discussed along with the derivations.",
+          "youtubeID": "jsKSfaFQ4d4"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "courseTitle": "CEN 521: Software Engineering",
+      "author": "Covenant University",
+      "courseBanner": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+      "videos": [
+        {
+          "id": 1,
+          "videoTitle": "Intro to Python Livestream - Python Basics",
+          "link": "https://www.youtube.com/watch?v=z2k9Jh3jDVU&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "z2k9Jh3jDVU"
+        },
+        {
+          "id": 2,
+          "videoTitle": "Python For Loops, Functions, and Random - Python Basics",
+          "link": "https://www.youtube.com/watch?v=4UuMrebbwIo&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=2",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "4UuMrebbwIo"
+        },
+        {
+          "id": 3,
+          "videoTitle": "Prime Numbers, Times Tables, & More - Python Basics",
+          "link": "https://www.youtube.com/watch?v=DhdOKh5Issw&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=3",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "DhdOKh5Issw"
+        },
+        {
+          "id": 4,
+          "videoTitle": "Find Longest Substring / Guessing Game - Python Basics",
+          "link": "https://www.youtube.com/watch?v=hoP7_DkrmiA&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=4",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "hoP7_DkrmiA"
+        },
+        {
+          "id": 5,
+          "videoTitle": "Command Line and Recursion in Python - Python Basics",
+          "link": "https://www.youtube.com/watch?v=2T8BFVPhYPs&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=5",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "2T8BFVPhYPs"
+        },
+        {
+          "id": 6,
+          "videoTitle": "Scope and Decorators - Python Basics",
+          "link": "https://www.youtube.com/watch?v=VckRJ6v1yWU&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=6",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "VckRJ6v1yWU"
+        },
+        {
+          "id": 7,
+          "videoTitle": "Build a Shopping List for the Command Line - Python Basics",
+          "link": "https://www.youtube.com/watch?v=xapvhkhlPNI&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=7",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "xapvhkhlPNI"
+        },
+        {
+          "id": 8,
+          "videoTitle": "Generators and Classes - Python Basics",
+          "link": "https://www.youtube.com/watch?v=UzDuMsnTIGQ&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=8",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "UzDuMsnTIGQ"
+        },
+        {
+          "id": 9,
+          "videoTitle": "Board Game, Lists and More - Python Basics",
+          "link": "https://www.youtube.com/watch?v=1vMtftJf7tQ&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=9",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "1vMtftJf7tQ"
+        },
+        {
+          "id": 10,
+          "videoTitle": "Chicken Nuggets and itertools - Python Basics",
+          "link": "https://www.youtube.com/watch?v=kZNIHeCaZiM&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=10",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "kZNIHeCaZiM"
+        },
+        {
+          "id": 11,
+          "videoTitle": "Tkinter Calculator - Python Basics",
+          "link": "https://www.youtube.com/watch?v=PkLwJicRI8s&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=11",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "PkLwJicRI8s"
+        },
+        {
+          "id": 12,
+          "videoTitle": "Random Password Generator - Python Basics",
+          "link": "https://www.youtube.com/watch?v=3j6v4wBZWR8&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=12",
+          "description": "Learn the basics of Python live from Sam Focht every Tuesday. This is part of a series that will cover the entire Python Programming language.",
+          "youtubeID": "3j6v4wBZWR8"
+        },
+        {
+          "id": 13,
+          "videoTitle": "Solving Python Challenges - Python Basics with Sam",
+          "link": "https://www.youtube.com/watch?v=iVajTZgMk4M&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=13",
+          "description": "Learn the basics of Python live from Sam Focht. In today's stream, you will learn about second conversion, automating file naming, finding specific files, and more.",
+          "youtubeID": "iVajTZgMk4M"
+        },
+        {
+          "id": 14,
+          "videoTitle": "Python Main Function, Door Game, and More - Python Basics with Sam",
+          "link": "https://www.youtube.com/watch?v=mvXDQNNcDu4&list=PLWKjhJtqVAbkmRvnFmOd4KhDdlK1oIq23&index=14",
+          "description": "Learn the basics of Python live from Sam Focht. In today's stream, you will learn about second conversion, automating file naming, finding specific files, and more.",
+          "youtubeID": "mvXDQNNcDu4"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "courseTitle": "EIE 311: Electromagnetic Waves",
+      "author": "Covenant University",
+      "courseBanner": "https://images.unsplash.com/photo-1618488238312-876fd0a2b1a1?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "videos": [
+        {
+          "id": 1,
+          "videoTitle": "Electromagnetic Waves",
+          "link": "https://www.youtube.com/watch?v=DWiZTLtQc3w&list=PLl3XxSJZhiZWqDtV_AHxuxSVo9NcQgbrp&index=2",
+          "description": "This physics video tutorial provides a basic introduction into electromagnetic waves.  EM waves are produced by accelerating charged particles and can propagate at the speed of light.  EM waves are composed of changing electric and magnetic fields.",
+          "youtubeID": "DWiZTLtQc3w"
+        },
+        {
+          "id": 2,
+          "videoTitle": "Introduction to Vector Analysis - Vector Analysis - Electromagnetic Engineering",
+          "link": "https://www.youtube.com/watch?v=KK5incP1fCc&list=PLl3XxSJZhiZWqDtV_AHxuxSVo9NcQgbrp&index=3",
+          "description": "",
+          "youtubeID": "KK5incP1fCc"
+        },
+        {
+          "id": 3,
+          "videoTitle": "Introduction to Rectangular Coordinate System - Vector Analysis - Electromagnetic Engineering",
+          "link": "https://www.youtube.com/watch?v=q_4RehwV5mE&list=PLl3XxSJZhiZWqDtV_AHxuxSVo9NcQgbrp&index=4",
+          "description": "Introduction to Rectangular Coordinate System - Vector Analysis - Electromagnetic Engineering",
+          "youtubeID": "q_4RehwV5mE"
+        },
+        {
+          "id": 4,
+          "videoTitle": "Rectangular Coordinate System Problem 1 - Vector Analysis - Electromagnetic Field and Wave Theory",
+          "link": "https://www.youtube.com/watch?v=Ff6Mqe_ltpY&list=PLl3XxSJZhiZWqDtV_AHxuxSVo9NcQgbrp&index=5",
+          "description": "",
+          "youtubeID": "Ff6Mqe_ltpY"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "courseTitle": "EIE416: Measurements and Instrumentation",
+      "author": "Covenant University",
+      "courseBanner": "https://images.unsplash.com/photo-1562568068-ea24dcbf3c78?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "videos": [
+        {
+          "id": 1,
+          "videoTitle": "How To Solve The Wheatstone Bridge Circuit",
+          "link": "https://www.youtube.com/watch?v=jFvVtB10B1I&list=PLl3XxSJZhiZXiZQb7PZVZRp1Z6qDwM6Ci&index=1&pp=iAQB",
+          "description": " It explains how to calculate the current in each resistor, the voltage across the resistors, as well as the equivalent resistance of the circuit.  This video also explains how to solve the wheatstone bridge circuit using Kirchoff's current laws.  It also provides formulas that can help you to quickly get the answer.",
+          "youtubeID": "jFvVtB10B1I"
+        },
+        {
+          "id": 2,
+          "videoTitle": "Data Acquisition Systems | Block Diagram | Part-1/2 | Electrical Instruments ( EIM ) ",
+          "link": "https://www.youtube.com/watch?v=jRbw2n2PA0E&list=PLl3XxSJZhiZXiZQb7PZVZRp1Z6qDwM6Ci&index=8",
+          "description": "Data Acquisition System",
+          "youtubeID": "jRbw2n2PA0E"
+        },
+        {
+          "id": 3,
+          "videoTitle": "Wein bridge circuit - AC bridge ",
+          "link": "https://www.youtube.com/watch?v=54REP1E4Ud4&list=PLl3XxSJZhiZXiZQb7PZVZRp1Z6qDwM6Ci&index=7",
+          "description": "Expression to measure frequency and capacitance are explained in great detail",
+          "youtubeID": "54REP1E4Ud4"
+        },
+        {
+          "id": 4,
+          "videoTitle": "Wheatstone's and Kelvin's bridge | Problems | Electrical Instruments ( EIM ) ",
+          "link": "https://www.youtube.com/watch?v=NPzcK3wqKQo&list=PLl3XxSJZhiZXiZQb7PZVZRp1Z6qDwM6Ci&index=6",
+          "description": "Problems on Wheatstone bridge and kelvin's bridge ",
+          "youtubeID": "NPzcK3wqKQo"
+        },
+        {
+          "id": 5,
+          "videoTitle": "Calculating the Missing Resistance in a Wheatstone Bridge",
+          "link": "https://www.youtube.com/watch?v=he8yZYQuGKY&list=PLl3XxSJZhiZXiZQb7PZVZRp1Z6qDwM6Ci&index=5",
+          "description": "Wheatstone Bridge circuits till have a lot of applications. You can measure unknown resistances to a great degree of accuracy. Gas detectors, LDRs, and strain gauges still use them. This is a preliminary video to using a strain gauge in a Wheatstone bridge and then coupling the outputto an instrumentation amplifier.",
+          "youtubeID": "he8yZYQuGKY"
+        },
+        {
+          "id": 6,
+          "videoTitle": "Calculate Equivalent Resistance of a 5 Resistor Bridge Circuit | Kirchhoff's Loop & Junction Rules",
+          "link": "https://www.youtube.com/watch?v=jQw9SZzGVXY&list=PLl3XxSJZhiZXiZQb7PZVZRp1Z6qDwM6Ci&index=4",
+          "description": "This circuit can NOT be reduced using basic series and parallel reductions.  Instead this problem must be solved using loop rule and junction rules.  The physics of this problem is not overly difficult, however the algebra causes most people to get lost in solving the problem.  Here we take a look at  using Ohm's Law to set up a system of equations that can be used to solve for the current and voltage at each resistor as well as the equivalent resistance of the entire circuit.",
+          "youtubeID": "jQw9SZzGVXY"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "courseTitle": "EIE 412: Control Systems",
+      "author": "Covenant University",
+      "courseBanner": "https://images.unsplash.com/photo-1509390221805-d1c887a72a00?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "videos": [
+        {
+          "id": 1,
+          "videoTitle": "Transfer Function of a Closed Loop System",
+          "link": "https://www.youtube.com/watch?v=WOeMqgyJK-A&list=PLl3XxSJZhiZXSKZ6nftL_HZHs3HpVoMKB&index=10",
+          "description": "Control Systems: Transfer Function of a Closed Loop and Open Loop Systems",
+          "youtubeID": "WOeMqgyJK-A"
+        },
+        {
+          "id": 2,
+          "videoTitle": "Procedure to Convert Block Diagram to Signal Flow Graph",
+          "link": "https://www.youtube.com/watch?v=mWFuINeMpnk&list=PLl3XxSJZhiZXSKZ6nftL_HZHs3HpVoMKB&index=4",
+          "description": "Procedure to Convert Block Diagram to Signal Flow Graph",
+          "youtubeID": "mWFuINeMpnk"
+        },
+        {
+          "id": 3,
+          "videoTitle": "DC Gain of a System",
+          "link": "https://www.youtube.com/watch?v=xV1tCIGyTDk&list=PLl3XxSJZhiZXSKZ6nftL_HZHs3HpVoMKB&index=11",
+          "description": "DC Gain of a System",
+          "youtubeID": "xV1tCIGyTDk"
+        },
+        {
+          "id": 4,
+          "videoTitle": "Mason's Gain Formula",
+          "link": "https://www.youtube.com/watch?v=l58uYZi-xjk&list=PLl3XxSJZhiZXSKZ6nftL_HZHs3HpVoMKB&index=3",
+          "description": "Mason's Gain Formula",
+          "youtubeID": "l58uYZi-xjk"
+        }
+      ]
+    }
+    
+  ]
+}
